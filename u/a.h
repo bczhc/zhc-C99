@@ -2,13 +2,10 @@
 // Created by zhc on 2019/5/3.
 //
 
-#include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
-#include <ctype.h>
 #include <io.h>
 #include <time.h>
-#include <string.h>
+#include "../zhc.h"
 
 #ifndef C99_A_H
 #define C99_A_H
@@ -46,16 +43,6 @@ char *NewFileName(char *Dest, const char *filePath) {
     return Dest;
 }
 
-long long getFileSize(FILE *fp) {
-    long long sz;
-    fseek(fp, 0L, SEEK_END);
-    sz = (long long) ftell(fp);
-    if (sz == -1) {
-        sz = _ftelli64(fp);
-    }
-    fseek(fp, 0L, SEEK_SET);
-    return sz;
-}
 
 char *NumStr_lenTo(char *Dest, const char *source, const int len_to) {
     char *r = Dest;
@@ -69,11 +56,6 @@ char *NumStr_lenTo(char *Dest, const char *source, const int len_to) {
     return r;
 }
 
-char *substring(char *Dest, const char *source, const int beginIndex, const int endIndex) {
-    char *r = Dest;
-    strncpy(r, source + beginIndex, (size_t) (endIndex - beginIndex));
-    return Dest;
-}
 
 int String_56_DivideInto(const char *source, const int per_char_split__7_or_8) {
     int source_l = strlen(source);
@@ -97,27 +79,4 @@ int String_56_DivideInto(const char *source, const int per_char_split__7_or_8) {
     printf("]\n");
 }*/
 
-int BinToDec(const char *NumStr) {
-    int r = 0;
-    int j = 0;
-    for (int i = strlen(NumStr) - 1; i >= 0; --i) {
-        r += (NumStr[i] == '0' ? 0 : 1) * pow((double) 2, (double) j);
-        j++;
-    }
-    return r;
-}
-
-char *ToUpperCase(char *Dest, const char *string) {
-    char *p = Dest;
-    int len = strlen(string);
-    char r[len + 1];
-    int i = 0;
-    while (1) {
-        r[i] = (char) toupper((int) string[i]);
-        if (string[i] == '\0') break;
-        i++;
-    }
-    strcpy(p, r);
-    return Dest;
-}
 #endif //C99_A_H
