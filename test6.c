@@ -24,5 +24,6 @@ int main() {
     c[j] = '\0';
     printf("%s", (char *) c);
     //Only god understood it.
-    //No!!!!!!!!!!!!!!!!!!!!freak write the code!!!!!
+    //No!!!!!!!!!!!!!!!!!!!!freaking write the code!!!!!
 }
++

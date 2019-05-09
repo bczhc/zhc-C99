@@ -74,4 +74,35 @@ int getIntegerLen(const int x) {
     return r;
 }
 
+char *Scanf() {
+    char c;
+    char *s = NULL;
+    int i = 1;
+    while (1) {
+        scanf("%c", &c);
+        s = (char *) realloc(s, (size_t) i);
+        if (c == 0x0A) {
+            s[i - 1] = 0x0;
+            break;
+        }
+        s[i - 1] = c;
+        ++i;
+    }
+    return s;
+}
+
+char *addStr(const char *source, const char *addStr) {
+    int sL = strlen(source), addS_s = strlen(addStr) + 1;
+    char *r = (char *) malloc((size_t) (sL + addS_s));
+    strcpy(r, source);
+    strcat(r, addStr);
+    return r;
+}
+
+char *charToCharPtr(const char c) {
+    char *r = (char *) malloc((size_t) 2);
+    r[0] = c;
+    return r;
+}
+
 #endif //C99_ZHC_H
