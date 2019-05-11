@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/zhc/code/C99/test10.c
+pthread.h
+-
+stdio.h
+-
+process.h
+-
+string.h
+-
+zhc.h
+C:/zhc/code/C99/zhc.h
+pthread.h
+-
+synchapi.h
+-
+
+C:/zhc/code/C99/zhc.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+ctype.h
+-
+math.h
+-
+

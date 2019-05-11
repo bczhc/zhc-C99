@@ -2,12 +2,17 @@
 // Created by zhc on 2019/5/7.
 //
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
 #include <math.h>
 
-#ifndef C99_ZHC_H
-#define C99_ZHC_H
+#pragma clang diagnostic push
+#pragma ide diagnostic ignored "OCUnusedGlobalDeclarationInspection"
+#ifndef ARR_len
+#define ARR_len(x) sizeof(x) / sizeof(x)[0]
+#endif
+typedef size_t usi;
 
 char *ToUpperCase(char *Dest, const char *string) {
     char *p = Dest;
@@ -74,35 +79,114 @@ int getIntegerLen(const int x) {
     return r;
 }
 
-char *Scanf() {
+void Scanf(char **Dest) {
     char c;
-    char *s = NULL;
     int i = 1;
     while (1) {
         scanf("%c", &c);
-        s = (char *) realloc(s, (size_t) i);
+        *Dest = (char *) realloc(*Dest, (size_t) i);
         if (c == 0x0A) {
-            s[i - 1] = 0x0;
+            (*Dest)[i - 1] = 0x0;
             break;
         }
-        s[i - 1] = c;
+        (*Dest)[i - 1] = c;
         ++i;
     }
-    return s;
 }
 
-char *addStr(const char *source, const char *addStr) {
-    int sL = strlen(source), addS_s = strlen(addStr) + 1;
-    char *r = (char *) malloc((size_t) (sL + addS_s));
-    strcpy(r, source);
-    strcat(r, addStr);
-    return r;
+void strcat_auto(char **DestOrSource, const char *str) {
+    usi strL = strlen(str);
+    usi S_L = strlen(*DestOrSource);
+    char a1[strL + 1], a2[S_L + 1];
+    strcpy(a1, *DestOrSource);
+    strcpy(a2, str);
+    *DestOrSource = NULL;
+    *DestOrSource = (char *) malloc((size_t) (strL + S_L + 1));
+    strcpy(*DestOrSource, a1);
+    strcat(*DestOrSource, a2);
 }
 
-char *charToCharPtr(const char c) {
-    char *r = (char *) malloc((size_t) 2);
-    r[0] = c;
-    return r;
+void charToCharPtr(char **Dest, const char c) {
+    *Dest = NULL;
+    *Dest = (char *) malloc((size_t) 2);
+    (*Dest)[0] = c;
 }
 
-#endif //C99_ZHC_H
+/**
+ *
+ * @param string s
+ * @param s s
+ * @return r
+ * @example this("123abc123", "23) = 2  this("12342312452312i23ab", "23") = 4
+ */
+usi strInStrCount(const char *string, const char *s) {
+    usi c = 0;
+    usi stringL = strlen(string), sL = strlen(s);
+    usi forI = stringL - sL + 1;
+    if (stringL < sL) {
+        free((void *) forI);
+        return 0;
+    } else {
+        for (int i = 0; i < forI; ++i) {
+            int b = 1;
+            for (int j = 0; j < sL; ++j) {
+                b &= (string[i + j] == s[j]);
+            }
+            if (b) ++c;
+        }
+    }
+    return c;
+}
+
+/**
+ * String split
+ * @param Dest Dest
+ * @param str String
+ * @param splitChar as separation
+ * @use
+ * void ***r = NULL;
+ * split(&r, str1, str2);
+ * int i = *((int *) (r[0][0]));// element count
+ * char **R = ((char **) ((char ***) r)[1]); //char * result
+ * for (int j = 0; j < i; ++j) {
+        printf("%s\n", R[j]);
+    }
+ */
+void split(void ****Dest, char *str, const char *splitChar) {
+    *Dest = (void ***) malloc((size_t) (sizeof(char **) * 2));
+    ((*Dest)[0]) = (void **) malloc((size_t) (sizeof(int *) * 1));
+    (*Dest)[0][0] = (void *) malloc((size_t) (size_t) (sizeof(int)));
+    (*Dest)[1] = (void **) malloc((size_t) (sizeof(void *) * 3));
+    char *r = NULL;
+    usi sS = strlen(str) + 1, splitChar_s = strlen(splitChar) + 1;
+    char str_charArr[sS], splitChar_charArr[splitChar_s];
+    for (int j = 0; j < sS - 1; ++j) {
+        str_charArr[j] = str[j];
+    }
+    str_charArr[sS - 1] = 0x0;
+    for (int j = 0; j < splitChar_s - 1; ++j) {
+        splitChar_charArr[j] = splitChar[j];
+    }
+    splitChar_charArr[splitChar_s - 1] = 0x0;
+    usi eC = strInStrCount(str, splitChar) + 1;
+    if (str[0] == splitChar[0]) eC--;
+    if (str[sS - 2] == splitChar[splitChar_s - 2]) eC--;
+    if (eC != 1) {
+        goto n;
+    }
+    *((int *) ((*Dest)[0][0])) = (int) 0;
+    strcpy((*Dest)[1][0], "");
+    return;
+    n:
+    *((int *) ((*Dest)[0][0])) = (int) eC;
+    (*Dest)[1] = (void **) malloc((size_t) (sizeof(char *) * eC));
+    r = strtok(str_charArr, splitChar_charArr);
+    int a_i = 0;
+    while (r != NULL) {
+        int rS = strlen(r) + 1;
+        (*Dest)[1][a_i] = ((char *) malloc((size_t) rS));
+        strcpy((*Dest)[1][a_i], r);
+        r = strtok(NULL, splitChar_charArr);
+        ++a_i;
+    }
+}

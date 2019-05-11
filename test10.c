@@ -1,3 +1,5 @@
+#include <pthread.h>
+/*
 #include <stdio.h>
 #include <process.h>
 #include <string.h>
@@ -270,5 +272,60 @@ int main(int argc, char *argv[]) {
               "-width 854");
     printf("%s\n", c);
     system(c);
+    return 0;
+}*/
+
+
+
+
+
+#include "zhc.h"
+
+/*
+void s(char **P) {
+    P = (char **) malloc((size_t) (sizeof(char *) * 3));
+
+//    return P;
+}
+
+void f(int *i) {
+    *i = 2;
+}
+
+void f2(char **Dest) {
+    *Dest = (char *) malloc(5);
+    strcpy(*Dest, "abc0");
+
+}
+
+int main(int argc, char *argv[]) {
+    */
+/*char a[] = "ab,cde,f,g";
+    void ***r = split(a, ",");*//*
+
+    char *r = NULL;
+    Scanf(&r);
+    printf("%s", r);
+    */
+/*int a = 3;
+    printf("%i\n", a);
+    f(&a);
+    printf("%i\n", a);*//*
+
+*/
+/*    char *r = NULL;
+    printf("%s\n", r);
+    f2(&r);
+    printf("%s\n", r);*//*
+
+    return 0;
+}*/
+
+
+#include <pthread.h>
+#include <synchapi.h>
+
+int main() {
+
     return 0;
 }

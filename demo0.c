@@ -1,3 +1,4 @@
+#include <pthread.h>
 /*
 #include "zhc.h"
 #include <pthread.h>
@@ -112,6 +113,7 @@ int main() {
 */
 
 
+/*
 #include <stdlib.h>
 #include "zhc.h"
 //#include <pthread.h>
@@ -123,7 +125,12 @@ int main(void) {
     strcat(iR, ",");
     int docC = 0, iR_len = strlen(iR);
     for (int i = 0; i < iR_len + 1; ++i) {
-        if (iR[i] == 44/*','*/) {
+        if (iR[i] == 44*/
+#include <stdio.h>
+#include "zhc.h"
+
+/*','*//*
+) {
             ++docC;
         }
     }
@@ -140,5 +147,31 @@ int main(void) {
         }
     }
     printf("%s", a[0]);
+    return 0;
+}*/
+
+void * a(int i) {
+    printf("%i\n", i);
+    return NULL;
+}
+
+int main() {
+    void ***r = NULL;
+    char *sR = NULL;
+    printf("Input: \n");
+    Scanf(&sR);
+    split(&r, sR, ",");
+    int i = *((int *) (r[0][0]));
+    printf("%i\n", i);
+    int iA[i];
+    char **R = ((char **) ((char ***) r)[1]);
+    for (int j = 0; j < i; ++j) {
+        iA[j] = atoi(R[j]);
+    }
+    int l = ARR_len(iA);
+    pthread_t t[l];
+    for (int k = 0; k < l; ++k) {
+        pthread_create(&(t[k]), NULL, a(iA[k]), NULL);
+    }
     return 0;
 }

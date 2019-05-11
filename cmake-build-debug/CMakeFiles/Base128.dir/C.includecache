@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/zhc/code/C99/u/Base128.c
+a.h
+C:/zhc/code/C99/u/a.h
+
+C:/zhc/code/C99/u/a.h
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+ctype.h
+-
+io.h
+-
+time.h
+-
+string.h
+-
+
