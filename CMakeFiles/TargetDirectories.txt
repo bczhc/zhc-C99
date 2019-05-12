@@ -13,5 +13,6 @@ C:/zhc/code/C99/CMakeFiles/test9.dir
 C:/zhc/code/C99/CMakeFiles/test10.dir
 C:/zhc/code/C99/CMakeFiles/Base128.dir
 C:/zhc/code/C99/CMakeFiles/b.dir
+C:/zhc/code/C99/CMakeFiles/Base64.dir
 C:/zhc/code/C99/CMakeFiles/edit_cache.dir
 C:/zhc/code/C99/CMakeFiles/rebuild_cache.dir

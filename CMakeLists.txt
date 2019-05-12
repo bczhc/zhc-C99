@@ -18,6 +18,7 @@ add_executable(test10 test10.c)
 add_executable(Base128 u/Base128.c)
 add_executable(FileXor u/FileXor.c)
 add_executable(b b.c)
+add_executable(Base64 u/Base64.c)
 #[[
 list(APPEND SOURCES ${CMAKE_SOURCE_DIR}/logo.rc)
  C:\zhc\f\e.txt]]

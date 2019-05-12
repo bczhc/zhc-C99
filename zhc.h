@@ -28,6 +28,15 @@ char *ToUpperCase(char *Dest, const char *string) {
     return Dest;
 }
 
+void PrintArr(const char arr[], int len) {
+    int l_ = len - 1;
+    printf("[");
+    for (int i = 0; i < l_; ++i) {
+        printf("%i%c", (int) arr[i], 44);
+    }
+    printf("%i]___%u", (int) arr[l_ - 1], (usi) (l_ + 1));
+}
+
 int BinToDec(const char *NumStr) {
     int r = 0;
     int j = 0;

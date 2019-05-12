@@ -304,6 +304,19 @@ b/fast:
 	$(MAKE) -f CMakeFiles\b.dir\build.make CMakeFiles/b.dir/build
 .PHONY : b/fast
 
+#=============================================================================
+# Target rules for targets named Base64
+
+# Build rule for target.
+Base64: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Base64
+.PHONY : Base64
+
+# fast build rule for target.
+Base64/fast:
+	$(MAKE) -f CMakeFiles\Base64.dir\build.make CMakeFiles/Base64.dir/build
+.PHONY : Base64/fast
+
 b.obj: b.c.obj
 
 .PHONY : b.obj
@@ -682,6 +695,33 @@ u/Base128.c.s:
 	$(MAKE) -f CMakeFiles\Base128.dir\build.make CMakeFiles/Base128.dir/u/Base128.c.s
 .PHONY : u/Base128.c.s
 
+u/Base64.obj: u/Base64.c.obj
+
+.PHONY : u/Base64.obj
+
+# target to build an object file
+u/Base64.c.obj:
+	$(MAKE) -f CMakeFiles\Base64.dir\build.make CMakeFiles/Base64.dir/u/Base64.c.obj
+.PHONY : u/Base64.c.obj
+
+u/Base64.i: u/Base64.c.i
+
+.PHONY : u/Base64.i
+
+# target to preprocess a source file
+u/Base64.c.i:
+	$(MAKE) -f CMakeFiles\Base64.dir\build.make CMakeFiles/Base64.dir/u/Base64.c.i
+.PHONY : u/Base64.c.i
+
+u/Base64.s: u/Base64.c.s
+
+.PHONY : u/Base64.s
+
+# target to generate assembly for a file
+u/Base64.c.s:
+	$(MAKE) -f CMakeFiles\Base64.dir\build.make CMakeFiles/Base64.dir/u/Base64.c.s
+.PHONY : u/Base64.c.s
+
 u/FileXor.obj: u/FileXor.c.obj
 
 .PHONY : u/FileXor.obj
@@ -730,6 +770,7 @@ help:
 	@echo ... test10
 	@echo ... Base128
 	@echo ... b
+	@echo ... Base64
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... b.obj
@@ -774,6 +815,9 @@ help:
 	@echo ... u/Base128.obj
 	@echo ... u/Base128.i
 	@echo ... u/Base128.s
+	@echo ... u/Base64.obj
+	@echo ... u/Base64.i
+	@echo ... u/Base64.s
 	@echo ... u/FileXor.obj
 	@echo ... u/FileXor.i
 	@echo ... u/FileXor.s
