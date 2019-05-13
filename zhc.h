@@ -199,3 +199,11 @@ void split(void ****Dest, char *str, const char *splitChar) {
         ++a_i;
     }
 }
+
+int Str_Cmp_nMatchCase(const char *a, const char *b) {
+    char t1[strlen(a) + 1];
+    char t2[strlen(a) + 1];
+    ToUpperCase(t1, a);
+    ToUpperCase(t2, b);
+    return strcmp(t1, t2) ? 0 : 1;
+}
