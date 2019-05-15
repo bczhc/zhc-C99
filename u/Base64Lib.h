@@ -1,6 +1,4 @@
 #include "../zhc.h"
-/*
-#include "../zhc.h"
 #include <pthread.h>
 
 #define READ_SIZE 1023
@@ -113,7 +111,6 @@ void sDT() {
     decodeTable['/'] = 63;
 }
 
-*/
 /*
  * File encode method _old
 FILE *fp = NULL, *fpO = NULL;
@@ -139,11 +136,9 @@ for (int i = b + 1; i < 4; ++i) {
 R[i] = '=';
 }
 fwrite(R, 4, 1, fpO);
-}*//*
+}*/
 
 
-
-*/
 /*File decode method _old
  * FILE *fp = NULL, *fpO = NULL;
 if ((fp = fopen(argv[2], "rb")) == NULL) return -1;
@@ -166,12 +161,12 @@ fread(r, b, 1, fp);
 int eqMC = (r[b - 1] == '=') + (r[b - 2] == '=');
 d1_EQ_M(R, r, eqMC);
 fwrite(R, 3 - eqMC, 1, fpO);
-}*//*
+}*/
 
+void eT_D() {
+    
+}
 
-
-*/
-/*
 void e_1023P(char buf[READ_SIZE], int readSize, int g) {
     int a = READ_SIZE / g, b = a % g, lastE_L = a + b, d = a / 3, e = a % 3;
     char r[e ? (readSize / 3 * 4 + 1) : (readSize / 3 * 4)];
@@ -179,7 +174,8 @@ void e_1023P(char buf[READ_SIZE], int readSize, int g) {
     printf("readSize: %d\n"
            "r.length: %d\n", readSize, e ? (readSize / 3 * 4 + 1) : (readSize / 3 * 4));
     for (int i = 0; i < g - 1; ++i) {
-//        substr(&(perGroupBuf[i]), buf, i * a, (i + 1) * a);
+        substr(&(perGroupBuf[i]), buf, i * a, (i + 1) * a);
     }
-}*/
-
+    pthread_t t[g - 1];
+    
+}

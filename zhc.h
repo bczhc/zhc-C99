@@ -60,7 +60,7 @@ void printArr(const char *a, const int length) {
     printf("]\n");
 }
 
-/*char *substring(char *Dest, const char *source, const int beginIndex, const int endIndex) {
+char *substring(char *Dest, const char *source, const int beginIndex, const int endIndex) {
     char *r = Dest;
     strncpy(r, source + beginIndex, (size_t) (endIndex - beginIndex));
     return Dest;
@@ -69,7 +69,7 @@ void printArr(const char *a, const int length) {
 void substr(char **Dest, const char *source, const int from, int length) {
     *Dest = (char *) malloc((size_t) length + 1);
     strncpy(*Dest, source + from, (size_t) length);
-}*/
+}
 
 long long getFileSize(FILE *fp) {
     long long sz;
