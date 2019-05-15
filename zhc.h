@@ -12,7 +12,8 @@
 #ifndef ARR_len
 #define ARR_len(x) sizeof(x) / sizeof(x)[0]
 #endif
-typedef size_t usi;
+#define dl long long
+#define usi unsigned int
 
 char *ToUpperCase(char *Dest, const char *string) {
     char *p = Dest;
@@ -34,7 +35,7 @@ void PrintArr(const char arr[], int len) {
     for (int i = 0; i < l_; ++i) {
         printf("%i%c", (int) arr[i], 44);
     }
-    printf("%i]___%u", (int) arr[l_ - 1], (usi) (l_ + 1));
+    printf("%i]___%u", (int) arr[l_ - 1], (l_ + 1));
 }
 
 int BinToDec(const char *NumStr) {
@@ -59,11 +60,16 @@ void printArr(const char *a, const int length) {
     printf("]\n");
 }
 
-char *substring(char *Dest, const char *source, const int beginIndex, const int endIndex) {
+/*char *substring(char *Dest, const char *source, const int beginIndex, const int endIndex) {
     char *r = Dest;
     strncpy(r, source + beginIndex, (size_t) (endIndex - beginIndex));
     return Dest;
 }
+
+void substr(char **Dest, const char *source, const int from, int length) {
+    *Dest = (char *) malloc((size_t) length + 1);
+    strncpy(*Dest, source + from, (size_t) length);
+}*/
 
 long long getFileSize(FILE *fp) {
     long long sz;
