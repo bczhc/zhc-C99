@@ -2,13 +2,13 @@
 // Created by zhc on 2019/5/3.
 //
 
-#include <stdlib.h>
 #include <io.h>
 #include <time.h>
 #include "../zhc.h"
 
 #ifndef C99_A_H
 #define C99_A_H
+#endif //C99_A_H
 static int DivideR_len = 0;
 static char DivideR[8][9] = {{""}};
 
@@ -79,6 +79,36 @@ int String_56_DivideInto(const char *source, const int per_char_split__7_or_8) {
     printf("]\n");
 }*/
 
-#endif //C99_A_H
+void e1(char *Dest, const char buf[7]) {
+    Dest[0] = (buf[0] & 255) >> 1;
+    Dest[1] = ((buf[0] & 1) << 6) | ((buf[1] & 255) >> 2);
+    Dest[2] = ((buf[1] & 3) << 5) | ((buf[2] & 255) >> 3);
+    Dest[3] = ((buf[2] & 7) << 4) | ((buf[3] & 255) >> 4);
+    Dest[4] = ((buf[3] & 15) << 3) | ((buf[4] & 255) >> 5);
+    Dest[5] = ((buf[4] & 31) << 2) | ((buf[5] & 255) >> 6);
+    Dest[6] = ((buf[5] & 63) << 1) | ((buf[6] & 255) >> 7);
+    Dest[7] = buf[6] & 127;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

@@ -71,6 +71,13 @@ void substr(char **Dest, const char *source, const int from, int length) {
     strncpy(*Dest, source + from, (size_t) length);
 }
 
+char *substr2(char *Dest, const char *source, const int from, int length) {
+    char *r = Dest;
+    strncpy(r, source + from, (size_t) length);
+    return Dest;
+}
+
+
 long long getFileSize(FILE *fp) {
     long long sz;
     fseek(fp, 0L, SEEK_END);

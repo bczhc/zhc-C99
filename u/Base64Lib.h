@@ -2,6 +2,8 @@
 #include <pthread.h>
 
 #define READ_SIZE 1023
+#define R_S 1364
+#define W_R 768
 
 // Created by zhc on 2019/5/11.
 //
@@ -21,12 +23,11 @@ char *e1(char *Dest, const char cArr[3]) {
     return Dest;
 }
 
-char *d1(char *Dest, const char cArr[4]) {
+void d1(char *Dest, const char cArr[4]) {
     char *r = Dest;
     r[0] = (decodeTable[cArr[0]] << 2) | (decodeTable[cArr[1]] >> 4);
     r[1] = (decodeTable[cArr[1]] << 4) | (decodeTable[cArr[2]] >> 2);
     r[2] = (decodeTable[cArr[2]] << 6) | decodeTable[cArr[3]];
-    return r;
 }
 
 char *d1_EQ_M(char *Dest, const char cArr[4], int eqM_C) {
@@ -164,18 +165,37 @@ fwrite(R, 3 - eqMC, 1, fpO);
 }*/
 
 void eT_D() {
-    
+
 }
 
-void e_1023P(char buf[READ_SIZE], int readSize, int g) {
-    int a = READ_SIZE / g, b = a % g, lastE_L = a + b, d = a / 3, e = a % 3;
-    char r[e ? (readSize / 3 * 4 + 1) : (readSize / 3 * 4)];
-    char *perGroupBuf[g - 1];
-    printf("readSize: %d\n"
-           "r.length: %d\n", readSize, e ? (readSize / 3 * 4 + 1) : (readSize / 3 * 4));
-    for (int i = 0; i < g - 1; ++i) {
-        substr(&(perGroupBuf[i]), buf, i * a, (i + 1) * a);
+int e_1023P(char *Dest, char buf[READ_SIZE], int readSize) {
+    int a = readSize / 3, b = readSize % 3;
+    int g = b ? a + 1 : a;
+    int rL = g * 4;
+    char rB[3];
+    for (int i = 0; i < g; ++i) {
+        substr2(rB, buf, 3 * i, 3);
+        e1(Dest + 4 * i, rB);
     }
-    pthread_t t[g - 1];
-    
+    if (b)
+        for (int i = rL - 3 + b/*rL - (3 - b)*/; i < rL; ++i) {
+            Dest[i] = '=';
+        }
+    return rL;
+}
+
+int d_1024P(char *Dest, const char buf[1024], const int readSize) {
+    int a = readSize / 4, b = readSize % 4;
+    int g = b ? a + 1 : a;
+    int rL = g * 3;
+    char rB[4];
+    for (int i = 0; i < g; ++i) {
+        substr2(rB, buf, 4 * i, 4);
+        d1(Dest + 3 * i, rB);
+    }
+    return rL;
+}
+
+int d_1024P_eqM(char *Dest, const char *buf, const int readSize, const int eqM_C) {
+    return 0;
 }

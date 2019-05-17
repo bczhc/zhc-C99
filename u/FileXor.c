@@ -114,12 +114,12 @@ int main(int argc, char *argv[]) {
     strcpy(fileName, argv[1]);
     strcpy(DestFileName, argv[2]);
     if (argc == 5) {
-        /*
          * fileName 1
          * DestFileName 2
          * kM 3
          * keyContent 4
-         */
+         
+
         char k[strlen(argv[4]) + 1];
         char kM[9] = {""};
         strcpy(kM, argv[3]);

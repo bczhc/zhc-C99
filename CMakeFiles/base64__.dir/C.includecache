@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/zhc/code/C99/u/bin/base64.c
+stddef.h
+-
+stdio.h
+-
+string.h
+-
+getopt.h
+-
+../include/libbase64.h
+C:/zhc/code/C99/u/include/libbase64.h
+
+C:/zhc/code/C99/u/include/libbase64.h
+
