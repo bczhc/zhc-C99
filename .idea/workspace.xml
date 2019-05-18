@@ -2,22 +2,23 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="C99" targetName="Main" />
-      <config projectName="C99" targetName="test9" />
       <config projectName="C99" targetName="b" />
-      <config projectName="C99" targetName="demo5" />
-      <config projectName="C99" targetName="demo4" />
-      <config projectName="C99" targetName="demo3" />
-      <config projectName="C99" targetName="Base64" />
-      <config projectName="C99" targetName="demo1" />
-      <config projectName="C99" targetName="demo0" />
       <config projectName="C99" targetName="Base128" />
-      <config projectName="C99" targetName="FileXor" />
-      <config projectName="C99" targetName="test10" />
-      <config projectName="C99" targetName="demo2" />
+      <config projectName="C99" targetName="Base64" />
+      <config projectName="C99" targetName="test6" />
       <config projectName="C99" targetName="test8" />
       <config projectName="C99" targetName="test7" />
-      <config projectName="C99" targetName="test6" />
+      <config projectName="C99" targetName="Base64_Old" />
+      <config projectName="C99" targetName="Main" />
+      <config projectName="C99" targetName="test9" />
+      <config projectName="C99" targetName="test10" />
+      <config projectName="C99" targetName="demo0" />
+      <config projectName="C99" targetName="demo1" />
+      <config projectName="C99" targetName="demo2" />
+      <config projectName="C99" targetName="demo3" />
+      <config projectName="C99" targetName="FileXor" />
+      <config projectName="C99" targetName="demo4" />
+      <config projectName="C99" targetName="demo5" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -26,11 +27,39 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf55a0ab-904d-4f76-b645-9d531476af0b" name="Default Changelist" comment="遇到问题，暂时放弃多线程&#10;回归单线程 编写解码">
+    <list default="true" id="bf55a0ab-904d-4f76-b645-9d531476af0b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/u/Base128_old.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u/b.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Base128.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Base128.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C99.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/C99.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/FileXor.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/FileXor.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Main.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/b.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/b.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/demo0.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/demo0.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/demo1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/demo1.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/demo2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/demo2.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/demo3.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/demo3.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/demo4.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/demo4.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/demo5.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/demo5.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/test10.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/test10.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/test6.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/test6.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/test7.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/test7.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/test8.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/test8.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/test9.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/test9.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/u/Base128.c" beforeDir="false" afterPath="$PROJECT_DIR$/u/Base128.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/u/Base64Lib.h" beforeDir="false" afterPath="$PROJECT_DIR$/u/Base64Lib.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/u/a.h" beforeDir="false" afterPath="$PROJECT_DIR$/u/a.h" afterDir="false" />
+    </list>
+    <list id="9850aa7a-5464-401d-90e5-6b45105e0c03" name="aa" comment="">
+      <change beforePath="$PROJECT_DIR$/u/Base128.c" beforeDir="false" afterPath="$PROJECT_DIR$/u/Base128.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -47,43 +76,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test10.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
-              <folding>
-                <element signature="e#528#548#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo0.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhc.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="77" selection-start-line="77" selection-end-line="77" />
-              <folding>
-                <element signature="e#37#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/u/Base64Lib.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="180" column="17" selection-start-line="180" selection-start-column="17" selection-end-line="180" selection-end-column="17" />
+            <state relative-caret-position="122">
+              <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -100,11 +96,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhc.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="77" selection-start-line="77" selection-end-line="77" />
+              <folding>
+                <element signature="e#37#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/u/Base128.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/u/Base128_old.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-20">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -112,8 +129,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/u/a.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="120" column="17" selection-start-line="120" selection-start-column="17" selection-end-line="120" selection-end-column="17" />
+            <state relative-caret-position="122">
+              <caret line="117" column="38" lean-forward="true" selection-start-line="117" selection-start-column="38" selection-end-line="117" selection-end-column="38" />
               <folding>
                 <element signature="e#38#53#0" expanded="true" />
               </folding>
@@ -125,13 +142,10 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>dec</find>
-      <find>0xFF</find>
       <find>\(cArr\[[0-9]\] \^ -256\)</find>
       <find>cArr[0]</find>
       <find>cArr\[.\]</find>
       <find>zhc.h&quot;</find>
-      <find>prin</find>
       <find>le</find>
       <find>leng</find>
       <find>Base</find>
@@ -146,7 +160,6 @@
       <find>ToUpperCase</find>
       <find>char *ToUpperCase(char *Dest, const char *string) {</find>
       <find>#include &quot;</find>
-      <find>substr</find>
       <find>e</find>
       <find>Dest</find>
       <find>//e</find>
@@ -155,6 +168,10 @@
       <find>//d</find>
       <find>encod</find>
       <find>...</find>
+      <find>prin</find>
+      <find>mem</find>
+      <find>substr</find>
+      <find>substr2</find>
     </findStrings>
     <replaceStrings>
       <replace>FILE</replace>
@@ -200,16 +217,19 @@
         <option value="$PROJECT_DIR$/test6.c" />
         <option value="$PROJECT_DIR$/u/include/libbase64.h" />
         <option value="$PROJECT_DIR$/u/bin/base64.c" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/u/FileXor.c" />
         <option value="$PROJECT_DIR$/u/Base128.c___jb_tmp___.txt" />
         <option value="$PROJECT_DIR$/zhc.h" />
         <option value="$PROJECT_DIR$/demo0.c" />
-        <option value="$PROJECT_DIR$/u/Base64Lib.h" />
         <option value="$PROJECT_DIR$/u/Base64.c" />
         <option value="$PROJECT_DIR$/test10.c" />
-        <option value="$PROJECT_DIR$/u/a.h" />
+        <option value="$PROJECT_DIR$/u/Base128_old.c" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/u/a.txt" />
+        <option value="$PROJECT_DIR$/u/b.txt" />
         <option value="$PROJECT_DIR$/u/Base128.c" />
+        <option value="$PROJECT_DIR$/u/a.h" />
+        <option value="$PROJECT_DIR$/u/Base64Lib.h" />
       </list>
     </option>
   </component>
@@ -218,6 +238,17 @@
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/u/Base128.c">
+      <ranges>
+        <range start1="12" end1="13" start2="12" end2="12" changelist="bf55a0ab-904d-4f76-b645-9d531476af0b" />
+        <range start1="16" end1="17" start2="15" end2="16" changelist="9850aa7a-5464-401d-90e5-6b45105e0c03" />
+        <range start1="22" end1="22" start2="21" end2="22" changelist="bf55a0ab-904d-4f76-b645-9d531476af0b" />
+        <range start1="25" end1="34" start2="25" end2="25" changelist="9850aa7a-5464-401d-90e5-6b45105e0c03" />
+        <range start1="39" end1="39" start2="30" end2="50" changelist="bf55a0ab-904d-4f76-b645-9d531476af0b" />
+      </ranges>
+    </file>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
@@ -252,17 +283,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="C99" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\zhc\code\C99" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -290,11 +310,23 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="C99" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\zhc\code\C99" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/zhc/code/C99/test10.c" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/u" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -329,12 +361,17 @@
     </option>
   </component>
   <component name="RunManager" selected="CMake Application.Base128">
-    <configuration name="Base128" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-encode &quot;J:\1\VID_20190412_222539.mp4&quot; &quot;J:\1\VID_20190412_222539&quot;" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C99" TARGET_NAME="Base128" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C99" RUN_TARGET_NAME="Base128">
+    <configuration name="Base128" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-encode J:\1\a.txt J:\1\a_.txt" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C99" TARGET_NAME="Base128" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C99" RUN_TARGET_NAME="Base128">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="Base64" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-decode &quot;D:/a.txt.Base64.txt&quot; -f" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C99" TARGET_NAME="Base64" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C99" RUN_TARGET_NAME="Base64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Base64_Old" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C99" TARGET_NAME="Base64_Old" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C99" RUN_TARGET_NAME="Base64_Old">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -417,6 +454,7 @@
     <list>
       <item itemvalue="CMake Application.Base128" />
       <item itemvalue="CMake Application.Base64" />
+      <item itemvalue="CMake Application.Base64_Old" />
       <item itemvalue="CMake Application.Build All" />
       <item itemvalue="CMake Application.FileXor" />
       <item itemvalue="CMake Application.Main" />
@@ -443,6 +481,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="bf55a0ab-904d-4f76-b645-9d531476af0b" name="Default Changelist" comment="" />
+      <changelist id="9850aa7a-5464-401d-90e5-6b45105e0c03" name="aa" comment="" />
       <created>1547375049690</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -508,7 +547,7 @@
       <workItem from="1557661532987" duration="26683000" />
       <workItem from="1557920112234" duration="213000" />
       <workItem from="1557921612024" duration="15397000" />
-      <workItem from="1558103674578" duration="10510000" />
+      <workItem from="1558103674578" duration="16900000" />
     </task>
     <task id="LOCAL-00001" summary="整理库">
       <created>1557233306082</created>
@@ -587,11 +626,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558147972901</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="雏形完成，但不知道哪里出问题&#10;多线程貌似比原来还慢，瓶颈不知道是不是大量的创建、等待进程，还是哪里……&#10;回归单线程">
+      <created>1558149219122</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1558149219122</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="364835000" />
+    <option name="totallyTimeSpent" value="371225000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -618,7 +664,7 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4919571" weight="0.32707775" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.46179625" side_tool="true" weight="0.3281471" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3297587" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.52680963" />
       <window_info anchor="bottom" id="CMake" order="10" sideWeight="0.5382038" weight="0.32573727" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.60254693" weight="0.34986594" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49731904" weight="0.32573727" />
@@ -628,22 +674,22 @@
       <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6059957" weight="0.24664879" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6059957" visible="true" weight="0.27949062" />
       <window_info id="Structure" order="1" sideWeight="0.3940043" side_tool="true" weight="0.18364611" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932975" weight="0.3281471" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.58378017" weight="0.36144578" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4966488" weight="0.3960396" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932975" weight="0.32707775" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.58378017" visible="true" weight="0.36193028" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4966488" weight="0.41957104" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4919571" weight="0.32797858" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4919571" weight="0.32707775" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.46179625" side_tool="true" weight="0.3281471" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CMake" order="10" sideWeight="0.5382038" weight="0.3266399" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.60254693" weight="0.27710843" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49731904" visible="true" weight="0.3266399" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.52680963" />
+      <window_info anchor="bottom" id="CMake" order="10" sideWeight="0.5382038" weight="0.32573727" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.60254693" weight="0.34986594" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49731904" weight="0.32573727" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -690,7 +736,8 @@
     <MESSAGE value="Base64 文件编码完成，文件解码先放下&#10;开始Base128，准备 可能会多线程，不一定 看情况" />
     <MESSAGE value="Base128 编码应该好了，单线程，准备试多线程" />
     <MESSAGE value="遇到问题，暂时放弃多线程&#10;回归单线程 编写解码" />
-    <option name="LAST_COMMIT_MESSAGE" value="遇到问题，暂时放弃多线程&#10;回归单线程 编写解码" />
+    <MESSAGE value="雏形完成，但不知道哪里出问题&#10;多线程貌似比原来还慢，瓶颈不知道是不是大量的创建、等待进程，还是哪里……&#10;回归单线程" />
+    <option name="LAST_COMMIT_MESSAGE" value="雏形完成，但不知道哪里出问题&#10;多线程貌似比原来还慢，瓶颈不知道是不是大量的创建、等待进程，还是哪里……&#10;回归单线程" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -707,12 +754,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/u/Base64Lib.h</url>
-          <line>178</line>
+          <line>177</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/u/Base64Lib.h</url>
-          <line>187</line>
+          <line>186</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -727,18 +774,48 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/u/Base64Lib.h</url>
-          <line>194</line>
+          <line>191</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/u/a.h</url>
-          <line>125</line>
+          <line>127</line>
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/u/Base128.c</url>
+          <line>31</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/u/a.h</url>
-          <line>113</line>
-          <option name="timeStamp" value="63" />
+          <line>115</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/u/a.h</url>
+          <line>119</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/u/Base128.c</url>
+          <line>22</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/u/Base128.c</url>
+          <line>5</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/u/Base128.c</url>
+          <line>123</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/zhc.h</url>
+          <line>74</line>
+          <option name="timeStamp" value="72" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -751,10 +828,8 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
-        <watch expression="Dest[5]" language="ObjectiveC" />
-        <watch expression="t_b" language="ObjectiveC" />
-        <watch expression="t_buf" language="ObjectiveC" />
-        <watch expression="t_e_r" language="ObjectiveC" />
+        <watch expression="buf[6]" language="ObjectiveC" />
+        <watch expression="Dest[7]" language="ObjectiveC" />
       </configuration>
     </watches-manager>
   </component>
@@ -790,42 +865,12 @@ a</expression-string>
     </expressions>
     <expressions id="watch">
       <expression>
-        <expression-string>t_e_r</expression-string>
+        <expression-string>Dest[7]</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>t_r_r</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>t_b</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>b[0]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>b</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>t_buf</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>g_buf</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Dest[5]</expression-string>
+        <expression-string>Dest[8]</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -835,7 +880,32 @@ a</expression-string>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>Dest[4]</expression-string>
+        <expression-string>Dest[5]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Dest</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>buf[6]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>buf[5]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>buf[4]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(buf + 7 * i)[6]</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -926,36 +996,6 @@ a</expression-string>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/wtypesbase.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="375" column="16" selection-start-line="375" selection-start-column="16" selection-end-line="375" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.954.2708/b128.c" />
-    <entry file="file://H:/s_a.h" />
-    <entry file="file://C:/tomcat_Server/src/com_zhc_u_demo_JNI_a.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding>
-            <element signature="e#213#225#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/jniDo.bat" />
     <entry file="file://$PROJECT_DIR$/com_zhc_u_demo_JNI_c.h" />
     <entry file="file://$PROJECT_DIR$/jni_md.h">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1106,13 +1146,6 @@ a</expression-string>
     </entry>
     <entry file="file://$PROJECT_DIR$/u/include/libbase64.h" />
     <entry file="file://$PROJECT_DIR$/u/bin/base64.c" />
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo1.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -1244,22 +1277,58 @@ a</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/u/Base64Lib.h">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="180" column="17" selection-start-line="180" selection-start-column="17" selection-end-line="180" selection-end-column="17" />
+        <state relative-caret-position="277">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://J:/1/a_.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://J:/1/a_nices.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://J:/1/a.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-123480" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/u/b.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="92823" column="69" selection-start-line="92823" selection-start-column="69" selection-end-line="92823" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/u/a.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="92823" column="53" lean-forward="true" selection-start-line="92823" selection-start-column="53" selection-end-line="92823" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/u/a.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="117" column="38" lean-forward="true" selection-start-line="117" selection-start-column="38" selection-end-line="117" selection-end-column="38" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#38#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhc.h">
+    <entry file="file://$PROJECT_DIR$/u/Base64Lib.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        <state relative-caret-position="122">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
           <folding>
-            <element signature="e#37#55#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1271,12 +1340,12 @@ a</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/u/a.h">
+    <entry file="file://$PROJECT_DIR$/zhc.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="120" column="17" selection-start-line="120" selection-start-column="17" selection-end-line="120" selection-end-column="17" />
+        <state relative-caret-position="207">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
           <folding>
-            <element signature="e#38#53#0" expanded="true" />
+            <element signature="e#37#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1284,7 +1353,14 @@ a</expression-string>
     <entry file="file://$PROJECT_DIR$/u/Base128.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/u/Base128_old.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
         </state>
       </provider>
     </entry>

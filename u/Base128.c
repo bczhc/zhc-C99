@@ -10,7 +10,6 @@ int eD(const char *fN, const char *D_fN) {
     int b = fS % ERS;
     char r[ERS] = {0};
     char R[DRS] = {0};
-//    char T_R[4116/*4 * ERS*/] = {0};
     char b1[8] = {0, 0, 0, 0, 0, 'z', 'h', 'c'};
     b1[0] = (char) (fS % 7);
     fwrite(b1, 8, 1, fpO);
@@ -20,6 +19,7 @@ int eD(const char *fN, const char *D_fN) {
         fwrite(R, DRS, 1, fpO);
     }
     if (b) {
+        memset(r, 0, ERS);
         fread(r, b, 1, fp);
         int rL = e_1029P(R, r, b);
         fwrite(R, rL, 1, fpO);
@@ -37,6 +37,26 @@ int eD(const char *fN, const char *D_fN) {
 }
 
 int dD(const char *fN, const char *D_fN) {
+    FILE *fp, *fpO;
+    if ((fp = fopen(fN, "rb")) == NULL) return EOF;
+    if ((fpO = fopen(D_fN, "wb")) == NULL) return EOF;
+    dl fS = getFileSize(fp) - 8, a = fS / DRS;
+    int b = fS % DRS;
+    char r[DRS] = {0};
+    char R[ERS] = {0};
+    int fC = 0;
+    fread(r, 8, 1, fp);
+    fC = r[0] & 255;
+    for (int i = 0; i < a - 1; ++i) {
+        fread(r, DRS, 1, fp);
+        d_1176P(R, r, DRS);
+        fwrite(R, ERS, 1, fpO);
+    }
+    if (b) {
+        fread(r, b, 1, fp);
+        int rL = d_1176P(R, r, b);
+        fwrite(R, rL + fC - 7, 1, fpO);
+    }
     return 0;
 }
 

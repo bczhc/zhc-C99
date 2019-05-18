@@ -106,17 +106,20 @@ void d1(char *Dest, const char buf[8]) {
 
 int e_1029P(char *Dest, const char buf[ERS], int readSize) {
     int a = readSize / 7, b = readSize % 7, g = b ? a + 1 : a, rL = g * 8;
-    char rB[7] = {0};
     for (int i = 0; i < g; ++i) {
-        substr2(rB, buf, 7 * i, 7);
-        e1(Dest + 8 * i, rB);
+        e1(Dest + 8 * i, buf + 7 * i);
     }
     return rL;
 }
 
-int d_1029P(char *Dest, const char buf[DRS], int readSize) {
-
+int d_1176P(char *Dest, const char buf[DRS], int readSize) {
+    int a = readSize / 8, b = readSize % 8, g = b ? a + 1 : a, rL = g * 7;
+    for (int i = 0; i < g; ++i) {
+        d1(Dest + 7 * i, buf + 8 * i);
+    }
+    return rL;
 }
+
 char t_b[4][1029] = {{0}};
 char t_e_r[4][DRS] = {{0}};
 
@@ -125,6 +128,7 @@ void *T_fun(void *arg) {
     e_1029P(t_e_r[i], t_b[i], 1029);
     return NULL;
 }
+
 int i_t[4] = {0};
 
 int e_4116_TP(char buf[4116], int readSize) {

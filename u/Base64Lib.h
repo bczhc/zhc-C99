@@ -174,8 +174,7 @@ int e_1023P(char *Dest, char buf[READ_SIZE], int readSize) {
     int rL = g * 4;
     char rB[3];
     for (int i = 0; i < g; ++i) {
-        substr2(rB, buf, 3 * i, 3);
-        e1(Dest + 4 * i, rB);
+        e1(Dest + 4 * i, buf + 3 * i);
     }
     if (b)
         for (int i = rL - 3 + b/*rL - (3 - b)*/; i < rL; ++i) {
@@ -188,10 +187,8 @@ int d_1024P(char *Dest, const char buf[1024], const int readSize) {
     int a = readSize / 4, b = readSize % 4;
     int g = b ? a + 1 : a;
     int rL = g * 3;
-    char rB[4];
     for (int i = 0; i < g; ++i) {
-        substr2(rB, buf, 4 * i, 4);
-        d1(Dest + 3 * i, rB);
+        d1(Dest + 3 * i, buf + 4 * i);
     }
     return rL;
 }
