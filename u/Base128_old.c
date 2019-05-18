@@ -1,7 +1,10 @@
+/*
 //#define ARR_len(x) sizeof(x) / sizeof(x)[0]
 #include "a.h"
 
-int main(/*const */int argc, char *argv[]) {
+int main(*/
+/*const *//*
+int argc, char *argv[]) {
 //    argc = 3;
     if (argc < 3) {
         printf("%s", "Base128\nCommand [-encode | -decode] [[filePath]] [[DestFilePath]] |\n"
@@ -152,4 +155,4 @@ int main(/*const */int argc, char *argv[]) {
         rename(zFN, argv[2]);
     }
     return 0;
-}
+}*/
