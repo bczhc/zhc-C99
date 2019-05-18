@@ -26,11 +26,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf55a0ab-904d-4f76-b645-9d531476af0b" name="Default Changelist" comment="">
+    <list default="true" id="bf55a0ab-904d-4f76-b645-9d531476af0b" name="Default Changelist" comment="遇到问题，暂时放弃多线程&#10;回归单线程 编写解码">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/u/Base128.c" beforeDir="false" afterPath="$PROJECT_DIR$/u/Base128.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/u/Base64.c" beforeDir="false" afterPath="$PROJECT_DIR$/u/Base64.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/u/a.h" beforeDir="false" afterPath="$PROJECT_DIR$/u/a.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/test10.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/test10.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/test10.dir/test10.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/test10.dir/test10.c.obj" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -49,7 +48,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test10.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
+            <state relative-caret-position="127">
               <caret line="44" selection-start-line="44" selection-end-line="44" />
               <folding>
                 <element signature="e#528#548#0" expanded="true" />
@@ -61,7 +60,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo0.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
+            <state relative-caret-position="240">
               <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
             </state>
           </provider>
@@ -70,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zhc.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="83" column="20" lean-forward="true" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
+            <state relative-caret-position="82">
+              <caret line="77" selection-start-line="77" selection-end-line="77" />
               <folding>
                 <element signature="e#37#55#0" expanded="true" />
               </folding>
@@ -82,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/u/Base64Lib.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="178" column="5" lean-forward="true" selection-start-line="178" selection-start-column="5" selection-end-line="178" selection-end-column="5" />
+            <state relative-caret-position="236">
+              <caret line="180" column="17" selection-start-line="180" selection-start-column="17" selection-end-line="180" selection-end-column="17" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -94,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/u/a.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="105" column="74" lean-forward="true" selection-start-line="105" selection-start-column="74" selection-end-line="105" selection-end-column="74" />
+            <state relative-caret-position="127">
+              <caret line="126" selection-start-line="126" selection-end-line="126" />
               <folding>
                 <element signature="e#38#53#0" expanded="true" />
               </folding>
@@ -106,8 +105,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/u/Base128.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="167">
+              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -116,7 +115,7 @@
         <entry file="file://$PROJECT_DIR$/u/Base64.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="256">
-              <caret line="59" column="34" lean-forward="true" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+              <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -201,13 +200,13 @@
         <option value="$PROJECT_DIR$/u/include/libbase64.h" />
         <option value="$PROJECT_DIR$/u/bin/base64.c" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/test10.c" />
         <option value="$PROJECT_DIR$/u/FileXor.c" />
         <option value="$PROJECT_DIR$/u/Base128.c___jb_tmp___.txt" />
         <option value="$PROJECT_DIR$/zhc.h" />
         <option value="$PROJECT_DIR$/demo0.c" />
         <option value="$PROJECT_DIR$/u/Base64Lib.h" />
         <option value="$PROJECT_DIR$/u/Base64.c" />
+        <option value="$PROJECT_DIR$/test10.c" />
         <option value="$PROJECT_DIR$/u/a.h" />
         <option value="$PROJECT_DIR$/u/Base128.c" />
       </list>
@@ -508,7 +507,7 @@
       <workItem from="1557661532987" duration="26683000" />
       <workItem from="1557920112234" duration="213000" />
       <workItem from="1557921612024" duration="15397000" />
-      <workItem from="1558103674578" duration="6305000" />
+      <workItem from="1558103674578" duration="9266000" />
     </task>
     <task id="LOCAL-00001" summary="整理库">
       <created>1557233306082</created>
@@ -566,11 +565,25 @@
       <option name="project" value="LOCAL" />
       <updated>1558104724324</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Base128 编码应该好了，单线程，准备试多线程">
+      <created>1558144978017</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1558144978017</updated>
+    </task>
+    <task id="LOCAL-00010" summary="遇到问题，暂时放弃多线程&#10;回归单线程 编写解码">
+      <created>1558147601899</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1558147601899</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="360630000" />
+    <option name="totallyTimeSpent" value="363591000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -583,21 +596,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6059957" visible="true" weight="0.27949062" />
       <window_info id="Structure" order="1" sideWeight="0.3940043" side_tool="true" weight="0.18364611" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932975" weight="0.32707775" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.58378017" visible="true" weight="0.36193028" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.58378017" weight="0.36193028" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4966488" weight="0.41957104" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4919571" weight="0.32707775" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.46179625" side_tool="true" weight="0.3281471" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3297587" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3297587" />
       <window_info anchor="bottom" id="CMake" order="10" sideWeight="0.5382038" weight="0.32573727" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.60254693" weight="0.34986594" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49731904" weight="0.32573727" />
@@ -632,6 +644,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="整理库" />
     <MESSAGE value="又写了点库" />
@@ -641,7 +679,9 @@
     <MESSAGE value="莫名其妙的错误信号……" />
     <MESSAGE value="解决错误信号了，但是有困惑的pthread中的Sleep" />
     <MESSAGE value="Base64 文件编码完成，文件解码先放下&#10;开始Base128，准备 可能会多线程，不一定 看情况" />
-    <option name="LAST_COMMIT_MESSAGE" value="Base64 文件编码完成，文件解码先放下&#10;开始Base128，准备 可能会多线程，不一定 看情况" />
+    <MESSAGE value="Base128 编码应该好了，单线程，准备试多线程" />
+    <MESSAGE value="遇到问题，暂时放弃多线程&#10;回归单线程 编写解码" />
+    <option name="LAST_COMMIT_MESSAGE" value="遇到问题，暂时放弃多线程&#10;回归单线程 编写解码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -681,6 +721,16 @@
           <line>194</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/u/Base128.c</url>
+          <line>29</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/u/a.h</url>
+          <line>126</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -693,6 +743,9 @@
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
         <watch expression="Dest[5]" language="ObjectiveC" />
+        <watch expression="t_b" language="ObjectiveC" />
+        <watch expression="t_buf" language="ObjectiveC" />
+        <watch expression="t_e_r" language="ObjectiveC" />
       </configuration>
     </watches-manager>
   </component>
@@ -728,6 +781,41 @@ a</expression-string>
     </expressions>
     <expressions id="watch">
       <expression>
+        <expression-string>t_e_r</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>t_r_r</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>t_b</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>b[0]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>b</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>t_buf</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>g_buf</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>Dest[5]</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -739,41 +827,6 @@ a</expression-string>
       </expression>
       <expression>
         <expression-string>Dest[4]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Dest[3]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Dest[2]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(char)</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(char) 27561212321321111112LL</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(char) 2756121232132111111213213</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(char) 2756121232132111111</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(char) 275612123213</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1071,13 +1124,6 @@ a</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/pthread.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="167" column="32" lean-forward="true" selection-start-line="167" selection-start-column="32" selection-end-line="167" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/ctype.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
@@ -1155,30 +1201,6 @@ a</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test10.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="e#528#548#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo0.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/u/Base64.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="59" column="34" lean-forward="true" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/stdio.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6420">
@@ -1189,30 +1211,61 @@ a</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhc.h">
+    <entry file="file://C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/pthread.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="83" column="20" lean-forward="true" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
+        <state relative-caret-position="150">
+          <caret line="313" column="92" selection-start-line="313" selection-start-column="92" selection-end-line="313" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo0.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/u/Base64.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test10.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
           <folding>
-            <element signature="e#37#55#0" expanded="true" />
+            <element signature="e#528#548#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/u/Base64Lib.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="178" column="5" lean-forward="true" selection-start-line="178" selection-start-column="5" selection-end-line="178" selection-end-column="5" />
+        <state relative-caret-position="236">
+          <caret line="180" column="17" selection-start-line="180" selection-start-column="17" selection-end-line="180" selection-end-column="17" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/zhc.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="e#37#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/u/a.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="105" column="74" lean-forward="true" selection-start-line="105" selection-start-column="74" selection-end-line="105" selection-end-column="74" />
+        <state relative-caret-position="127">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
           <folding>
             <element signature="e#38#53#0" expanded="true" />
           </folding>
@@ -1221,8 +1274,8 @@ a</expression-string>
     </entry>
     <entry file="file://$PROJECT_DIR$/u/Base128.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="167">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
         </state>
       </provider>
     </entry>
