@@ -28,8 +28,9 @@
   <component name="ChangeListManager">
     <list default="true" id="bf55a0ab-904d-4f76-b645-9d531476af0b" name="Default Changelist" comment="遇到问题，暂时放弃多线程&#10;回归单线程 编写解码">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/test10.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/test10.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/test10.dir/test10.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/test10.dir/test10.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base128.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Base128.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/u/Base128.c" beforeDir="false" afterPath="$PROJECT_DIR$/u/Base128.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/u/a.h" beforeDir="false" afterPath="$PROJECT_DIR$/u/a.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -91,13 +92,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/u/a.h">
+        <entry file="file://$PROJECT_DIR$/u/Base64.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="126" selection-start-line="126" selection-end-line="126" />
-              <folding>
-                <element signature="e#38#53#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="116">
+              <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -105,17 +103,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/u/Base128.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+            <state relative-caret-position="200">
+              <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/u/Base64.c">
+        <entry file="file://$PROJECT_DIR$/u/a.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+            <state relative-caret-position="127">
+              <caret line="120" column="17" selection-start-line="120" selection-start-column="17" selection-end-line="120" selection-end-column="17" />
+              <folding>
+                <element signature="e#38#53#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -328,7 +329,7 @@
     </option>
   </component>
   <component name="RunManager" selected="CMake Application.Base128">
-    <configuration name="Base128" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-encode &quot;D:\a.txt&quot; &quot;D:\a.D.txt&quot;" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C99" TARGET_NAME="Base128" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C99" RUN_TARGET_NAME="Base128">
+    <configuration name="Base128" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-encode &quot;J:\1\VID_20190412_222539.mp4&quot; &quot;J:\1\VID_20190412_222539&quot;" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C99" TARGET_NAME="Base128" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C99" RUN_TARGET_NAME="Base128">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -507,7 +508,7 @@
       <workItem from="1557661532987" duration="26683000" />
       <workItem from="1557920112234" duration="213000" />
       <workItem from="1557921612024" duration="15397000" />
-      <workItem from="1558103674578" duration="9266000" />
+      <workItem from="1558103674578" duration="10510000" />
     </task>
     <task id="LOCAL-00001" summary="整理库">
       <created>1557233306082</created>
@@ -579,11 +580,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558147601899</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="遇到问题，暂时放弃多线程&#10;回归单线程 编写解码">
+      <created>1558147972901</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1558147972901</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="363591000" />
+    <option name="totallyTimeSpent" value="364835000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -596,20 +604,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6059957" visible="true" weight="0.27949062" />
       <window_info id="Structure" order="1" sideWeight="0.3940043" side_tool="true" weight="0.18364611" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932975" weight="0.32707775" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.58378017" weight="0.36193028" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.58378017" visible="true" weight="0.36193028" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4966488" weight="0.41957104" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4919571" weight="0.32707775" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.46179625" side_tool="true" weight="0.3281471" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3297587" />
       <window_info anchor="bottom" id="CMake" order="10" sideWeight="0.5382038" weight="0.32573727" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.60254693" weight="0.34986594" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49731904" weight="0.32573727" />
@@ -722,14 +731,14 @@
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/u/Base128.c</url>
-          <line>29</line>
-          <option name="timeStamp" value="60" />
+          <url>file://$PROJECT_DIR$/u/a.h</url>
+          <line>125</line>
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/u/a.h</url>
-          <line>126</line>
-          <option name="timeStamp" value="61" />
+          <line>113</line>
+          <option name="timeStamp" value="63" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -1225,13 +1234,6 @@ a</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/u/Base64.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test10.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
@@ -1262,10 +1264,17 @@ a</expression-string>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/u/Base64.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/u/a.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
-          <caret line="126" selection-start-line="126" selection-end-line="126" />
+          <caret line="120" column="17" selection-start-line="120" selection-start-column="17" selection-end-line="120" selection-end-column="17" />
           <folding>
             <element signature="e#38#53#0" expanded="true" />
           </folding>
@@ -1274,8 +1283,8 @@ a</expression-string>
     </entry>
     <entry file="file://$PROJECT_DIR$/u/Base128.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        <state relative-caret-position="200">
+          <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
         </state>
       </provider>
     </entry>

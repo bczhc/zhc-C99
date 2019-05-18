@@ -24,10 +24,15 @@ int eD(const char *fN, const char *D_fN) {
         int rL = e_1029P(R, r, b);
         fwrite(R, rL, 1, fpO);
     }*/
-    char *t_r;
+    dl t_a = fS / 4116, t_b = fS % 4116;
     char t_buf[4116] = {0};
-    fread(t_buf, 4116, 1, fp);
-    e_4116_TP(&t_r, t_buf, 4116);
+    for (int i = 0; i < t_a - 1; ++i) {
+        fread(t_buf, 4116, 1, fp);
+        e_4116_TP(t_buf, 4116);
+        for (int j = 0; j < 4; ++j) {
+            fwrite(t_e_r[j], DRS, 1, fpO);
+        }
+    }
     return 0;
 }
 
