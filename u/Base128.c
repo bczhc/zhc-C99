@@ -14,7 +14,7 @@ int eD(const char *fN, const char *D_fN) {
     char b1[8] = {0, 0, 0, 0, 0, 'z', 'h', 'c'};
     b1[0] = (char) (fS % 7);
     fwrite(b1, 8, 1, fpO);
-    for (int i = 0; i < a - 1; ++i) {
+    /*for (int i = 0; i < a - 1; ++i) {
         fread(r, ERS, 1, fp);
         e_1029P(R, r, 1029);
         fwrite(R, DRS, 1, fpO);
@@ -23,7 +23,11 @@ int eD(const char *fN, const char *D_fN) {
         fread(r, b, 1, fp);
         int rL = e_1029P(R, r, b);
         fwrite(R, rL, 1, fpO);
-    }
+    }*/
+    char *t_r;
+    char t_buf[4116] = {0};
+    fread(t_buf, 4116, 1, fp);
+    e_4116_TP(&t_r, t_buf, 4116);
     return 0;
 }
 

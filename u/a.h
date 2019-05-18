@@ -4,6 +4,8 @@
 
 #include <io.h>
 #include <time.h>
+#include <pthread.h>
+#include <synchapi.h>
 #include "../zhc.h"
 
 #ifndef C99_A_H
@@ -116,11 +118,27 @@ int d_1029P(char *Dest, const char buf[DRS], int readSize) {
 
 }
 
+char t_b[4][1029] = {{0}};
+char t_e_r[4][1029] = {{0}};
+
+void *T_fun(void *arg) {
+    int i = *((int *) arg) - 1;//????
+    printf("i: %d\n", i);
+    e_1029P(t_e_r[i], t_b[i], 1029);
+    return NULL;
+}
 
 
-
-
-
+int e_4116_TP(char **Dest, char buf[4116], int readSize) {
+    pthread_t t[4];
+    for (int i = 0; i < 3; ++i) {
+        substr2(t_b[i], buf, 1029 * i, 1029);
+        pthread_create(&(t[i]), NULL, T_fun, &i);
+    }
+    for (int j = 0; j < 3; ++j) {
+        pthread_join(t[j], NULL);
+    }
+}
 
 
 

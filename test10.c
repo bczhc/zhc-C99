@@ -44,6 +44,8 @@ int main() {
     pthread_t t[10];
     for (int i = 0; i < 10; ++i) {
         if (pthread_create(&(t[i]), NULL, t_fn, (void *) &i)) return -1;
+    }
+    for (int i = 0; i < 10; ++i) {
         if (pthread_join(t[i], NULL)) return -1;
     }
     printf("Thread done! \n");
