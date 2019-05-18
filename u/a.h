@@ -78,6 +78,8 @@ int String_56_DivideInto(const char *source, const int per_char_split__7_or_8) {
     }
     printf("]\n");
 }*/
+#define ERS 1029
+#define DRS 1176
 
 void e1(char *Dest, const char buf[7]) {
     Dest[0] = (buf[0] & 255) >> 1;
@@ -90,6 +92,29 @@ void e1(char *Dest, const char buf[7]) {
     Dest[7] = buf[6] & 127;
 }
 
+void d1(char *Dest, const char buf[8]) {
+    Dest[0] = (char) ((buf[0] & 255) << 1) | ((buf[1] & 255) >> 6);
+    Dest[1] = (char) ((buf[1] & 255) << 2) | ((buf[2] & 255) >> 5);
+    Dest[2] = (char) ((buf[2] & 255) << 3) | ((buf[3] & 255) >> 4);
+    Dest[3] = (char) ((buf[3] & 255) << 4) | ((buf[4] & 255) >> 3);
+    Dest[4] = (char) ((buf[4] & 255) << 5) | ((buf[5] & 255) >> 2);
+    Dest[5] = (char) ((buf[5] & 255) << 6) | ((buf[6] & 255) >> 1);
+    Dest[6] = (char) ((buf[6] & 255) << 7) | (buf[7] & 255);
+}
+
+int e_1029P(char *Dest, const char buf[ERS], int readSize) {
+    int a = readSize / 7, b = readSize % 7, g = b ? a + 1 : a, rL = g * 8;
+    char rB[7] = {0};
+    for (int i = 0; i < g; ++i) {
+        substr2(rB, buf, 7 * i, 7);
+        e1(Dest + 8 * i, rB);
+    }
+    return rL;
+}
+
+int d_1029P(char *Dest, const char buf[DRS], int readSize) {
+
+}
 
 
 
