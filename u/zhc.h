@@ -120,8 +120,8 @@ void strcat_auto(char **DestOrSource, const char *str) {
     usi strL = strlen(str);
     usi S_L = strlen(*DestOrSource);
     char a1[strL + 1], a2[S_L + 1];
-    strcpy(a1, *DestOrSource);
-    strcpy(a2, str);
+    strcpy(a1, str);
+    strcpy(a2, *DestOrSource);
     *DestOrSource = NULL;
     *DestOrSource = (char *) malloc((size_t) (strL + S_L + 1));
     strcpy(*DestOrSource, a1);

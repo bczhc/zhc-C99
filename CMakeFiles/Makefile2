@@ -70,7 +70,7 @@ CMAKE_BINARY_DIR = C:\zhc\code\C99
 CMakeFiles/FileXor.dir/all:
 	$(MAKE) -f CMakeFiles\FileXor.dir\build.make CMakeFiles/FileXor.dir/depend
 	$(MAKE) -f CMakeFiles\FileXor.dir\build.make CMakeFiles/FileXor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\zhc\code\C99\CMakeFiles --progress-num=7,8 "Built target FileXor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\zhc\code\C99\CMakeFiles --progress-num=9,10 "Built target FileXor"
 .PHONY : CMakeFiles/FileXor.dir/all
 
 # Include target in all.
@@ -107,7 +107,7 @@ clean: CMakeFiles/FileXor.dir/clean
 CMakeFiles/Main.dir/all:
 	$(MAKE) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/depend
 	$(MAKE) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\zhc\code\C99\CMakeFiles --progress-num=9,10 "Built target Main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\zhc\code\C99\CMakeFiles --progress-num=11,12 "Built target Main"
 .PHONY : CMakeFiles/Main.dir/all
 
 # Include target in all.
@@ -144,7 +144,7 @@ clean: CMakeFiles/Main.dir/clean
 CMakeFiles/demo0.dir/all:
 	$(MAKE) -f CMakeFiles\demo0.dir\build.make CMakeFiles/demo0.dir/depend
 	$(MAKE) -f CMakeFiles\demo0.dir\build.make CMakeFiles/demo0.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\zhc\code\C99\CMakeFiles --progress-num=13,14 "Built target demo0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\zhc\code\C99\CMakeFiles --progress-num=15,16 "Built target demo0"
 .PHONY : CMakeFiles/demo0.dir/all
 
 # Include target in all.
@@ -181,7 +181,7 @@ clean: CMakeFiles/demo0.dir/clean
 CMakeFiles/demo1.dir/all:
 	$(MAKE) -f CMakeFiles\demo1.dir\build.make CMakeFiles/demo1.dir/depend
 	$(MAKE) -f CMakeFiles\demo1.dir\build.make CMakeFiles/demo1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\zhc\code\C99\CMakeFiles --progress-num=15,16 "Built target demo1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\zhc\code\C99\CMakeFiles --progress-num=17,18 "Built target demo1"
 .PHONY : CMakeFiles/demo1.dir/all
 
 # Include target in all.
@@ -218,7 +218,7 @@ clean: CMakeFiles/demo1.dir/clean
 CMakeFiles/demo2.dir/all:
 	$(MAKE) -f CMakeFiles\demo2.dir\build.make CMakeFiles/demo2.dir/depend
 	$(MAKE) -f CMakeFiles\demo2.dir\build.make CMakeFiles/demo2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\zhc\code\C99\CMakeFiles --progress-num=17,18 "Built target demo2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\zhc\code\C99\CMakeFiles --progress-num=19,20 "Built target demo2"
 .PHONY : CMakeFiles/demo2.dir/all
 
 # Include target in all.
@@ -255,7 +255,7 @@ clean: CMakeFiles/demo2.dir/clean
 CMakeFiles/demo3.dir/all:
 	$(MAKE) -f CMakeFiles\demo3.dir\build.make CMakeFiles/demo3.dir/depend
 	$(MAKE) -f CMakeFiles\demo3.dir\build.make CMakeFiles/demo3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\zhc\code\C99\CMakeFiles --progress-num=19,20 "Built target demo3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\zhc\code\C99\CMakeFiles --progress-num=21,22 "Built target demo3"
 .PHONY : CMakeFiles/demo3.dir/all
 
 # Include target in all.
@@ -292,7 +292,7 @@ clean: CMakeFiles/demo3.dir/clean
 CMakeFiles/test7.dir/all:
 	$(MAKE) -f CMakeFiles\test7.dir\build.make CMakeFiles/test7.dir/depend
 	$(MAKE) -f CMakeFiles\test7.dir\build.make CMakeFiles/test7.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\zhc\code\C99\CMakeFiles --progress-num=29,30 "Built target test7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\zhc\code\C99\CMakeFiles --progress-num=31,32 "Built target test7"
 .PHONY : CMakeFiles/test7.dir/all
 
 # Include target in all.
@@ -329,7 +329,7 @@ clean: CMakeFiles/test7.dir/clean
 CMakeFiles/demo4.dir/all:
 	$(MAKE) -f CMakeFiles\demo4.dir\build.make CMakeFiles/demo4.dir/depend
 	$(MAKE) -f CMakeFiles\demo4.dir\build.make CMakeFiles/demo4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\zhc\code\C99\CMakeFiles --progress-num=21,22 "Built target demo4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\zhc\code\C99\CMakeFiles --progress-num=23,24 "Built target demo4"
 .PHONY : CMakeFiles/demo4.dir/all
 
 # Include target in all.
@@ -366,7 +366,7 @@ clean: CMakeFiles/demo4.dir/clean
 CMakeFiles/test6.dir/all:
 	$(MAKE) -f CMakeFiles\test6.dir\build.make CMakeFiles/test6.dir/depend
 	$(MAKE) -f CMakeFiles\test6.dir\build.make CMakeFiles/test6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\zhc\code\C99\CMakeFiles --progress-num=27,28 "Built target test6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\zhc\code\C99\CMakeFiles --progress-num=29,30 "Built target test6"
 .PHONY : CMakeFiles/test6.dir/all
 
 # Include target in all.
@@ -403,7 +403,7 @@ clean: CMakeFiles/test6.dir/clean
 CMakeFiles/demo5.dir/all:
 	$(MAKE) -f CMakeFiles\demo5.dir\build.make CMakeFiles/demo5.dir/depend
 	$(MAKE) -f CMakeFiles\demo5.dir\build.make CMakeFiles/demo5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\zhc\code\C99\CMakeFiles --progress-num=23,24 "Built target demo5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\zhc\code\C99\CMakeFiles --progress-num=25,26 "Built target demo5"
 .PHONY : CMakeFiles/demo5.dir/all
 
 # Include target in all.
@@ -440,7 +440,7 @@ clean: CMakeFiles/demo5.dir/clean
 CMakeFiles/test8.dir/all:
 	$(MAKE) -f CMakeFiles\test8.dir\build.make CMakeFiles/test8.dir/depend
 	$(MAKE) -f CMakeFiles\test8.dir\build.make CMakeFiles/test8.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\zhc\code\C99\CMakeFiles --progress-num=31,32 "Built target test8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\zhc\code\C99\CMakeFiles --progress-num=33,34 "Built target test8"
 .PHONY : CMakeFiles/test8.dir/all
 
 # Include target in all.
@@ -477,7 +477,7 @@ clean: CMakeFiles/test8.dir/clean
 CMakeFiles/test9.dir/all:
 	$(MAKE) -f CMakeFiles\test9.dir\build.make CMakeFiles/test9.dir/depend
 	$(MAKE) -f CMakeFiles\test9.dir\build.make CMakeFiles/test9.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\zhc\code\C99\CMakeFiles --progress-num=33,34 "Built target test9"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\zhc\code\C99\CMakeFiles --progress-num=35,36 "Built target test9"
 .PHONY : CMakeFiles/test9.dir/all
 
 # Include target in all.
@@ -514,7 +514,7 @@ clean: CMakeFiles/test9.dir/clean
 CMakeFiles/test10.dir/all:
 	$(MAKE) -f CMakeFiles\test10.dir\build.make CMakeFiles/test10.dir/depend
 	$(MAKE) -f CMakeFiles\test10.dir\build.make CMakeFiles/test10.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\zhc\code\C99\CMakeFiles --progress-num=25,26 "Built target test10"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\zhc\code\C99\CMakeFiles --progress-num=27,28 "Built target test10"
 .PHONY : CMakeFiles/test10.dir/all
 
 # Include target in all.
@@ -541,6 +541,43 @@ CMakeFiles/test10.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/test10.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Base128_dir.dir
+
+# All Build rule for target.
+CMakeFiles/Base128_dir.dir/all:
+	$(MAKE) -f CMakeFiles\Base128_dir.dir\build.make CMakeFiles/Base128_dir.dir/depend
+	$(MAKE) -f CMakeFiles\Base128_dir.dir\build.make CMakeFiles/Base128_dir.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\zhc\code\C99\CMakeFiles --progress-num=5,6 "Built target Base128_dir"
+.PHONY : CMakeFiles/Base128_dir.dir/all
+
+# Include target in all.
+all: CMakeFiles/Base128_dir.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Base128_dir.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\zhc\code\C99\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Base128_dir.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\zhc\code\C99\CMakeFiles 0
+.PHONY : CMakeFiles/Base128_dir.dir/rule
+
+# Convenience name for target.
+Base128_dir: CMakeFiles/Base128_dir.dir/rule
+
+.PHONY : Base128_dir
+
+# clean rule for target.
+CMakeFiles/Base128_dir.dir/clean:
+	$(MAKE) -f CMakeFiles\Base128_dir.dir\build.make CMakeFiles/Base128_dir.dir/clean
+.PHONY : CMakeFiles/Base128_dir.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Base128_dir.dir/clean
 
 .PHONY : clean
 
@@ -588,7 +625,7 @@ clean: CMakeFiles/Base128.dir/clean
 CMakeFiles/b.dir/all:
 	$(MAKE) -f CMakeFiles\b.dir\build.make CMakeFiles/b.dir/depend
 	$(MAKE) -f CMakeFiles\b.dir\build.make CMakeFiles/b.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\zhc\code\C99\CMakeFiles --progress-num=11,12 "Built target b"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\zhc\code\C99\CMakeFiles --progress-num=13,14 "Built target b"
 .PHONY : CMakeFiles/b.dir/all
 
 # Include target in all.
@@ -625,7 +662,7 @@ clean: CMakeFiles/b.dir/clean
 CMakeFiles/Base64.dir/all:
 	$(MAKE) -f CMakeFiles\Base64.dir\build.make CMakeFiles/Base64.dir/depend
 	$(MAKE) -f CMakeFiles\Base64.dir\build.make CMakeFiles/Base64.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\zhc\code\C99\CMakeFiles --progress-num=3,4 "Built target Base64"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\zhc\code\C99\CMakeFiles --progress-num=7,8 "Built target Base64"
 .PHONY : CMakeFiles/Base64.dir/all
 
 # Include target in all.
@@ -656,39 +693,39 @@ clean: CMakeFiles/Base64.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Base64_Old.dir
+# Target rules for target CMakeFiles/Base128_Old.dir
 
 # All Build rule for target.
-CMakeFiles/Base64_Old.dir/all:
-	$(MAKE) -f CMakeFiles\Base64_Old.dir\build.make CMakeFiles/Base64_Old.dir/depend
-	$(MAKE) -f CMakeFiles\Base64_Old.dir\build.make CMakeFiles/Base64_Old.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\zhc\code\C99\CMakeFiles --progress-num=5,6 "Built target Base64_Old"
-.PHONY : CMakeFiles/Base64_Old.dir/all
+CMakeFiles/Base128_Old.dir/all:
+	$(MAKE) -f CMakeFiles\Base128_Old.dir\build.make CMakeFiles/Base128_Old.dir/depend
+	$(MAKE) -f CMakeFiles\Base128_Old.dir\build.make CMakeFiles/Base128_Old.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\zhc\code\C99\CMakeFiles --progress-num=3,4 "Built target Base128_Old"
+.PHONY : CMakeFiles/Base128_Old.dir/all
 
 # Include target in all.
-all: CMakeFiles/Base64_Old.dir/all
+all: CMakeFiles/Base128_Old.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Base64_Old.dir/rule: cmake_check_build_system
+CMakeFiles/Base128_Old.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\zhc\code\C99\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Base64_Old.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Base128_Old.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\zhc\code\C99\CMakeFiles 0
-.PHONY : CMakeFiles/Base64_Old.dir/rule
+.PHONY : CMakeFiles/Base128_Old.dir/rule
 
 # Convenience name for target.
-Base64_Old: CMakeFiles/Base64_Old.dir/rule
+Base128_Old: CMakeFiles/Base128_Old.dir/rule
 
-.PHONY : Base64_Old
-
-# clean rule for target.
-CMakeFiles/Base64_Old.dir/clean:
-	$(MAKE) -f CMakeFiles\Base64_Old.dir\build.make CMakeFiles/Base64_Old.dir/clean
-.PHONY : CMakeFiles/Base64_Old.dir/clean
+.PHONY : Base128_Old
 
 # clean rule for target.
-clean: CMakeFiles/Base64_Old.dir/clean
+CMakeFiles/Base128_Old.dir/clean:
+	$(MAKE) -f CMakeFiles\Base128_Old.dir\build.make CMakeFiles/Base128_Old.dir/clean
+.PHONY : CMakeFiles/Base128_Old.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Base128_Old.dir/clean
 
 .PHONY : clean
 

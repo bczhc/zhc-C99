@@ -19,7 +19,8 @@ add_executable(Base128 u/Base128.c)
 add_executable(FileXor u/FileXor.c)
 add_executable(b b.c)
 add_executable(Base64 u/Base64.c)
-add_executable(Base64_Old u/Base128_old.c)
+add_executable(Base128_Old u/Base128_old.c)
+add_executable(Base128_dir u/encode.c)
 #[[
 list(APPEND SOURCES ${CMAKE_SOURCE_DIR}/logo.rc)
  C:\zhc\f\e.txt]]

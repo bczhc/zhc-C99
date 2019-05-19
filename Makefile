@@ -279,6 +279,19 @@ test10/fast:
 .PHONY : test10/fast
 
 #=============================================================================
+# Target rules for targets named Base128_dir
+
+# Build rule for target.
+Base128_dir: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Base128_dir
+.PHONY : Base128_dir
+
+# fast build rule for target.
+Base128_dir/fast:
+	$(MAKE) -f CMakeFiles\Base128_dir.dir\build.make CMakeFiles/Base128_dir.dir/build
+.PHONY : Base128_dir/fast
+
+#=============================================================================
 # Target rules for targets named Base128
 
 # Build rule for target.
@@ -318,17 +331,17 @@ Base64/fast:
 .PHONY : Base64/fast
 
 #=============================================================================
-# Target rules for targets named Base64_Old
+# Target rules for targets named Base128_Old
 
 # Build rule for target.
-Base64_Old: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Base64_Old
-.PHONY : Base64_Old
+Base128_Old: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Base128_Old
+.PHONY : Base128_Old
 
 # fast build rule for target.
-Base64_Old/fast:
-	$(MAKE) -f CMakeFiles\Base64_Old.dir\build.make CMakeFiles/Base64_Old.dir/build
-.PHONY : Base64_Old/fast
+Base128_Old/fast:
+	$(MAKE) -f CMakeFiles\Base128_Old.dir\build.make CMakeFiles/Base128_Old.dir/build
+.PHONY : Base128_Old/fast
 
 b.obj: b.c.obj
 
@@ -714,7 +727,7 @@ u/Base128_old.obj: u/Base128_old.c.obj
 
 # target to build an object file
 u/Base128_old.c.obj:
-	$(MAKE) -f CMakeFiles\Base64_Old.dir\build.make CMakeFiles/Base64_Old.dir/u/Base128_old.c.obj
+	$(MAKE) -f CMakeFiles\Base128_Old.dir\build.make CMakeFiles/Base128_Old.dir/u/Base128_old.c.obj
 .PHONY : u/Base128_old.c.obj
 
 u/Base128_old.i: u/Base128_old.c.i
@@ -723,7 +736,7 @@ u/Base128_old.i: u/Base128_old.c.i
 
 # target to preprocess a source file
 u/Base128_old.c.i:
-	$(MAKE) -f CMakeFiles\Base64_Old.dir\build.make CMakeFiles/Base64_Old.dir/u/Base128_old.c.i
+	$(MAKE) -f CMakeFiles\Base128_Old.dir\build.make CMakeFiles/Base128_Old.dir/u/Base128_old.c.i
 .PHONY : u/Base128_old.c.i
 
 u/Base128_old.s: u/Base128_old.c.s
@@ -732,7 +745,7 @@ u/Base128_old.s: u/Base128_old.c.s
 
 # target to generate assembly for a file
 u/Base128_old.c.s:
-	$(MAKE) -f CMakeFiles\Base64_Old.dir\build.make CMakeFiles/Base64_Old.dir/u/Base128_old.c.s
+	$(MAKE) -f CMakeFiles\Base128_Old.dir\build.make CMakeFiles/Base128_Old.dir/u/Base128_old.c.s
 .PHONY : u/Base128_old.c.s
 
 u/Base64.obj: u/Base64.c.obj
@@ -789,6 +802,33 @@ u/FileXor.c.s:
 	$(MAKE) -f CMakeFiles\FileXor.dir\build.make CMakeFiles/FileXor.dir/u/FileXor.c.s
 .PHONY : u/FileXor.c.s
 
+u/encode.obj: u/encode.c.obj
+
+.PHONY : u/encode.obj
+
+# target to build an object file
+u/encode.c.obj:
+	$(MAKE) -f CMakeFiles\Base128_dir.dir\build.make CMakeFiles/Base128_dir.dir/u/encode.c.obj
+.PHONY : u/encode.c.obj
+
+u/encode.i: u/encode.c.i
+
+.PHONY : u/encode.i
+
+# target to preprocess a source file
+u/encode.c.i:
+	$(MAKE) -f CMakeFiles\Base128_dir.dir\build.make CMakeFiles/Base128_dir.dir/u/encode.c.i
+.PHONY : u/encode.c.i
+
+u/encode.s: u/encode.c.s
+
+.PHONY : u/encode.s
+
+# target to generate assembly for a file
+u/encode.c.s:
+	$(MAKE) -f CMakeFiles\Base128_dir.dir\build.make CMakeFiles/Base128_dir.dir/u/encode.c.s
+.PHONY : u/encode.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -808,10 +848,11 @@ help:
 	@echo ... test8
 	@echo ... test9
 	@echo ... test10
+	@echo ... Base128_dir
 	@echo ... Base128
 	@echo ... b
 	@echo ... Base64
-	@echo ... Base64_Old
+	@echo ... Base128_Old
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... b.obj
@@ -865,6 +906,9 @@ help:
 	@echo ... u/FileXor.obj
 	@echo ... u/FileXor.i
 	@echo ... u/FileXor.s
+	@echo ... u/encode.obj
+	@echo ... u/encode.i
+	@echo ... u/encode.s
 .PHONY : help
 
 
