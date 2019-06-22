@@ -1,7 +1,7 @@
-#include "u/Base64Lib.h"
+#include "zhc.h"
 
 int main(int argc, char *argv[]) {
-    if (argc == 1)
+    /*if (argc == 1)
         return 0;
     FILE *fp = fopen(argv[1], "rb");
     FILE *fpO = fopen("D:\\s.O.txt", "wb");
@@ -18,6 +18,9 @@ int main(int argc, char *argv[]) {
     }
     fread(r, b, 1, fp);
     int rL = e_1023P(R, r, b);
-    fwrite(R, rL, 1, fpO);
+    fwrite(R, rL, 1, fpO);*/
+    char *s = NULL;
+    strcat_auto(&s, "a");
+    printf("%s\n", s);
     return 0;
 }

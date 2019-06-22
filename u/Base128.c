@@ -1,10 +1,11 @@
 //#define ARR_len(x) sizeof(x) / sizeof(x)[0]
+#include <time.h>
 #include "Base128Lib.h"
 
 int main(/*const */int argc, char *argv[]) {
     if (argc < 3) {
         printf("%s", "Base128\nCommand [-encode | -decode] [[filePath]] [[DestFilePath]] |\n"
-                     "Command [-encode | -decode] [[filePath]]");
+                     "Command [-encode | -decode] [[filePath]]\n");
         return 'P';
     }
     char dA[strlen(argv[1]) + 1];

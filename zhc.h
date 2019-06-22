@@ -5,7 +5,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
-#include <math.h>
 
 #pragma clang diagnostic push
 #pragma ide diagnostic ignored "OCUnusedGlobalDeclarationInspection"
@@ -38,11 +37,19 @@ void PrintArr(const char arr[], int len) {
     printf("%i]___%u", (int) arr[l_ - 1], (l_ + 1));
 }
 
+dl m_pow(const dl base, const dl exponent) {
+    dl r = 1LL;
+    for (int i = 0; i < exponent; ++i) {
+        r *= base;
+    }
+    return r;
+}
+
 int BinToDec(const char *NumStr) {
     int r = 0;
     int j = 0;
     for (int i = strlen(NumStr) - 1; i >= 0; --i) {
-        r += (NumStr[i] == '0' ? 0 : 1) * pow((double) 2, (double) j);
+        r += (NumStr[i] == '0' ? 0 : 1) * m_pow(2, j);
         j++;
     }
     return r;
@@ -84,6 +91,7 @@ long long getFileSize(FILE *fp) {
     sz = (long long) ftell(fp);
     if (sz == -1) {
         sz = _ftelli64(fp);
+        printf("Get file size error.\n");
     }
     fseek(fp, 0L, SEEK_SET);
     return sz;
@@ -116,16 +124,26 @@ void Scanf(char **Dest) {
     }
 }
 
-void strcat_auto(char **DestOrSource, const char *str) {
-    usi strL = strlen(str);
-    usi S_L = strlen(*DestOrSource);
-    char a1[strL + 1], a2[S_L + 1];
-    strcpy(a1, *DestOrSource);
-    strcpy(a2, str);
-    *DestOrSource = NULL;
-    *DestOrSource = (char *) malloc((size_t) (strL + S_L + 1));
-    strcpy(*DestOrSource, a1);
-    strcat(*DestOrSource, a2);
+void strcpyAndCat_auto(char **Dest, const char *cpy_s, const char *cat_s) {
+    *Dest = NULL;
+    int cpy_s_len = strlen(cpy_s);
+    int cat_s_len = strlen(cat_s);
+    size_t size = cpy_s_len + cat_s_len + 1;
+    *Dest = (char *) malloc(size);
+    strcpy(*Dest, cpy_s);
+    strcat(*Dest, cat_s);
+    (*Dest)[size - 1] = '\0';
+}
+
+void strcat_auto(char **sourceDest, const char *cat_s) {
+    int sourceLen = strlen(*sourceDest);
+    char cloneSource[sourceLen + 1];
+    strcpy(cloneSource, *sourceDest);
+    size_t size = sourceLen + strlen(cat_s) + 1;
+    *sourceDest = (char *) malloc(size);
+    strcpy(*sourceDest, cloneSource);
+    strcat(*sourceDest, cat_s);
+    (*sourceDest)[size - 1] = '\0';
 }
 
 void charToCharPtr(char **Dest, const char c) {
@@ -146,7 +164,7 @@ usi strInStrCount(const char *string, const char *s) {
     usi stringL = strlen(string), sL = strlen(s);
     usi forI = stringL - sL + 1;
     if (stringL < sL) {
-        free((void *) forI);
+//        free((void *) forI);
         return 0;
     } else {
         for (int i = 0; i < forI; ++i) {
@@ -219,4 +237,15 @@ int Str_Cmp_nMatchCase(const char *a, const char *b) {
     ToUpperCase(t1, a);
     ToUpperCase(t2, b);
     return strcmp(t1, t2) ? 0 : 1;
+}
+
+void m_itoa(char **Dest, const int i) {
+    int I_L = getIntegerLen(i);
+    *Dest = (char *) malloc((size_t) (I_L + 1));
+    int d_i = 0;
+    for (int j = I_L - 1; j >= 0; --j) {
+        (*Dest)[d_i] = (int) (((long) i) / ((long) m_pow(10LL, j)) % 10) + 48;
+        ++d_i;
+    }
+    (*Dest)[d_i] = 0;
 }

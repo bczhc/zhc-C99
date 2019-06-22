@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/code/code/C99/u/TEA.c
+stdio.h
+-
+stdint.h
+-
+stdlib.h
+-
+../zhc.h
+C:/code/code/C99/zhc.h
+
+C:/code/code/C99/zhc.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+ctype.h
+-
+

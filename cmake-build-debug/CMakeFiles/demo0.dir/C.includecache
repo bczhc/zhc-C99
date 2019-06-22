@@ -6,9 +6,17 @@
 
 #IncludeRegexTransform: 
 
-C:/zhc/code/C99/demo0.c
+C:/code/code/C99/demo0.c
+zhc.h
+C:/code/code/C99/zhc.h
+
+C:/code/code/C99/zhc.h
 stdio.h
 -
-math.h
+stdlib.h
+-
+string.h
+-
+ctype.h
 -
 

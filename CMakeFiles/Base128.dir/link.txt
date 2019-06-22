@@ -1,3 +1,0 @@
-C:\Users\zhc\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\191.6183.77\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\Base128.dir/objects.a
-C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\Base128.dir/objects.a @CMakeFiles\Base128.dir\objects1.rsp
-C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\Base128.dir/objects.a -Wl,--no-whole-archive  -o Base128.exe -Wl,--out-implib,libBase128.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Base128.dir\linklibs.rsp

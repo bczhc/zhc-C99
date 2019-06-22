@@ -21,6 +21,12 @@ add_executable(b b.c)
 add_executable(Base64 u/Base64.c)
 add_executable(Base128_Old u/Base128_old.c)
 add_executable(Base128_dir u/encode.c)
+add_executable(getFileSize getFileSize.c)
+add_executable(TEA u/TEA.c)
+add_executable(qmc u/qmc.c)
 #[[
 list(APPEND SOURCES ${CMAKE_SOURCE_DIR}/logo.rc)
  C:\zhc\f\e.txt]]
+add_executable(TwoFilesXor TwoFilesXor.c)
+#######################################
+add_executable(test test.c)

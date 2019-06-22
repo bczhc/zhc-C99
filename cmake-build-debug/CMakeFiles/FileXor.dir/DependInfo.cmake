@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/zhc/code/C99/u/FileXor.c" "C:/zhc/code/C99/cmake-build-debug/CMakeFiles/FileXor.dir/u/FileXor.c.obj"
+  "C:/code/code/C99/u/FileXor.c" "C:/code/code/C99/cmake-build-debug/CMakeFiles/FileXor.dir/u/FileXor.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

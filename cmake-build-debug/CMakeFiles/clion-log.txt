@@ -1,4 +1,4 @@
-C:\Users\zhc\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\191.6183.77\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe" "-DCMAKE_C_COMPILER=C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/gcc.exe" "-DCMAKE_CXX_COMPILER=C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/g++.exe" -G "CodeBlocks - MinGW Makefiles" C:\zhc\code\C99
+C:\Users\zhc-2\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\191.7479.33\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\code\code\C99
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/zhc/code/C99
+-- Build files have been written to: C:/code/code/C99/cmake-build-debug
