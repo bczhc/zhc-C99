@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test7.dir/test7.c.obj"
+  "CMakeFiles/test7.dir/test7.c.o"
   "test7.pdb"
-  "test7.exe"
-  "test7.exe.manifest"
-  "libtest7.dll.a"
+  "test7"
 )
 
 # Per-language clean rules from dependency scanning.

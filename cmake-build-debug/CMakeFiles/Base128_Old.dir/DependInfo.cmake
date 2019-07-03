@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/code/code/C99/u/Base128_old.c" "C:/code/code/C99/cmake-build-debug/CMakeFiles/Base128_Old.dir/u/Base128_old.c.obj"
+  "/root/myHome/zhc/code/code/C99/u/Base128_old.c" "/root/myHome/zhc/code/code/C99/cmake-build-debug/CMakeFiles/Base128_Old.dir/u/Base128_old.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

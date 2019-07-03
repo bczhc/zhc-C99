@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/TEA.dir/u/TEA.c.obj"
+  "CMakeFiles/TEA.dir/u/TEA.c.o"
   "TEA.pdb"
-  "TEA.exe"
-  "TEA.exe.manifest"
-  "libTEA.dll.a"
+  "TEA"
 )
 
 # Per-language clean rules from dependency scanning.

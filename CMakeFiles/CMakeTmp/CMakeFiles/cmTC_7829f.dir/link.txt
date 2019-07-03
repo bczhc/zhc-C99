@@ -1,1 +1,0 @@
-C:\code\code\C99\gcc      CMakeFiles/cmTC_7829f.dir/testCCompiler.c.obj  -o cmTC_7829f.exe 

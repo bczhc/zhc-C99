@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/qmc.dir/u/qmc.c.obj"
+  "CMakeFiles/qmc.dir/u/qmc.c.o"
   "qmc.pdb"
-  "qmc.exe"
-  "qmc.exe.manifest"
-  "libqmc.dll.a"
+  "qmc"
 )
 
 # Per-language clean rules from dependency scanning.

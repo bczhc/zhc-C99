@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/demo1.dir/demo1.c.obj"
+  "CMakeFiles/demo1.dir/demo1.c.o"
   "demo1.pdb"
-  "demo1.exe"
-  "demo1.exe.manifest"
-  "libdemo1.dll.a"
+  "demo1"
 )
 
 # Per-language clean rules from dependency scanning.

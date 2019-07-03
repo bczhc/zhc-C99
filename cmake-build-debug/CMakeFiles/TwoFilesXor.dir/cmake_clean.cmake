@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/TwoFilesXor.dir/TwoFilesXor.c.obj"
+  "CMakeFiles/TwoFilesXor.dir/TwoFilesXor.c.o"
   "TwoFilesXor.pdb"
-  "TwoFilesXor.exe"
-  "TwoFilesXor.exe.manifest"
-  "libTwoFilesXor.dll.a"
+  "TwoFilesXor"
 )
 
 # Per-language clean rules from dependency scanning.

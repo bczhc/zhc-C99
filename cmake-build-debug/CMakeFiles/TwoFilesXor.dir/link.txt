@@ -1,3 +1,1 @@
-C:\Users\zhc-2\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\191.7479.33\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\TwoFilesXor.dir/objects.a
-C:\bin\mingw-w64\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe cr CMakeFiles\TwoFilesXor.dir/objects.a @CMakeFiles\TwoFilesXor.dir\objects1.rsp
-C:\bin\mingw-w64\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\TwoFilesXor.dir/objects.a -Wl,--no-whole-archive  -o TwoFilesXor.exe -Wl,--out-implib,libTwoFilesXor.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TwoFilesXor.dir\linklibs.rsp
+/usr/bin/cc -g   CMakeFiles/TwoFilesXor.dir/TwoFilesXor.c.o  -o TwoFilesXor 

@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Base128_dir.dir/u/encode.c.obj"
+  "CMakeFiles/Base128_dir.dir/u/encode.c.o"
   "Base128_dir.pdb"
-  "Base128_dir.exe"
-  "Base128_dir.exe.manifest"
-  "libBase128_dir.dll.a"
+  "Base128_dir"
 )
 
 # Per-language clean rules from dependency scanning.

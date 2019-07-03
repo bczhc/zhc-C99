@@ -1,3 +1,0 @@
-C:/code/code/C99/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_7829f.dir
-C:/code/code/C99/CMakeFiles/CMakeTmp/CMakeFiles/edit_cache.dir
-C:/code/code/C99/CMakeFiles/CMakeTmp/CMakeFiles/rebuild_cache.dir

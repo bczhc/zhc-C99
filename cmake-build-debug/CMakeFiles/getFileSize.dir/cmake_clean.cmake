@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/getFileSize.dir/getFileSize.c.obj"
+  "CMakeFiles/getFileSize.dir/getFileSize.c.o"
   "getFileSize.pdb"
-  "getFileSize.exe"
-  "getFileSize.exe.manifest"
-  "libgetFileSize.dll.a"
+  "getFileSize"
 )
 
 # Per-language clean rules from dependency scanning.

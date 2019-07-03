@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/FileXor.dir/u/FileXor.c.obj"
+  "CMakeFiles/FileXor.dir/u/FileXor.c.o"
   "FileXor.pdb"
-  "FileXor.exe"
-  "FileXor.exe.manifest"
-  "libFileXor.dll.a"
+  "FileXor"
 )
 
 # Per-language clean rules from dependency scanning.

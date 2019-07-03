@@ -30,3 +30,6 @@ list(APPEND SOURCES ${CMAKE_SOURCE_DIR}/logo.rc)
 add_executable(TwoFilesXor TwoFilesXor.c)
 #######################################
 add_executable(test test.c)
+add_executable(kwm u/kwm.c)
+add_executable(cat_file u/cat_file.c)
+add_executable(zhc zhc.c)

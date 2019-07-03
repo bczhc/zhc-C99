@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-C:/code/code/C99/u/Base128.c
+/root/myHome/zhc/code/code/C99/u/Base128.c
 time.h
 -
 Base128Lib.h
-C:/code/code/C99/u/Base128Lib.h
+/root/myHome/zhc/code/code/C99/u/Base128Lib.h
 
-C:/code/code/C99/u/Base128Lib.h
+/root/myHome/zhc/code/code/C99/u/Base128Lib.h
 unistd.h
 -
 ../zhc.h
-C:/code/code/C99/zhc.h
+/root/myHome/zhc/code/code/C99/zhc.h
 
-C:/code/code/C99/zhc.h
+/root/myHome/zhc/code/code/C99/zhc.h
 stdio.h
 -
 stdlib.h

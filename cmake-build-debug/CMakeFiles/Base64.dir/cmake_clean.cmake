@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Base64.dir/u/Base64.c.obj"
+  "CMakeFiles/Base64.dir/u/Base64.c.o"
   "Base64.pdb"
-  "Base64.exe"
-  "Base64.exe.manifest"
-  "libBase64.dll.a"
+  "Base64"
 )
 
 # Per-language clean rules from dependency scanning.
