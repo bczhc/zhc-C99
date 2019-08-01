@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /root/myHome/zhc/bin/clion-2019.1.3/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/zhc/bin/clion-2019.1.3/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /root/myHome/zhc/bin/clion-2019.1.3/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/zhc/bin/clion-2019.1.3/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/myHome/zhc/code/code/C99
+CMAKE_SOURCE_DIR = /home/zhc/code/code/C99
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/myHome/zhc/code/code/C99/cmake-build-debug
+CMAKE_BINARY_DIR = /home/zhc/code/code/C99/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/myHome/zhc/code/code/C99/cmake-build-debug/CMakeFiles /root/myHome/zhc/code/code/C99/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhc/code/code/C99/cmake-build-debug/CMakeFiles /home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/myHome/zhc/code/code/C99/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhc/code/code/C99/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -148,6 +148,19 @@ kwm: cmake_check_build_system
 kwm/fast:
 	$(MAKE) -f CMakeFiles/kwm.dir/build.make CMakeFiles/kwm.dir/build
 .PHONY : kwm/fast
+
+#=============================================================================
+# Target rules for targets named s0
+
+# Build rule for target.
+s0: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 s0
+.PHONY : s0
+
+# fast build rule for target.
+s0/fast:
+	$(MAKE) -f CMakeFiles/s0.dir/build.make CMakeFiles/s0.dir/build
+.PHONY : s0/fast
 
 #=============================================================================
 # Target rules for targets named qmc
@@ -718,6 +731,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/main.c.s
 .PHONY : main.c.s
 
+s/s0.o: s/s0.c.o
+
+.PHONY : s/s0.o
+
+# target to build an object file
+s/s0.c.o:
+	$(MAKE) -f CMakeFiles/s0.dir/build.make CMakeFiles/s0.dir/s/s0.c.o
+.PHONY : s/s0.c.o
+
+s/s0.i: s/s0.c.i
+
+.PHONY : s/s0.i
+
+# target to preprocess a source file
+s/s0.c.i:
+	$(MAKE) -f CMakeFiles/s0.dir/build.make CMakeFiles/s0.dir/s/s0.c.i
+.PHONY : s/s0.c.i
+
+s/s0.s: s/s0.c.s
+
+.PHONY : s/s0.s
+
+# target to generate assembly for a file
+s/s0.c.s:
+	$(MAKE) -f CMakeFiles/s0.dir/build.make CMakeFiles/s0.dir/s/s0.c.s
+.PHONY : s/s0.c.s
+
 test.o: test.c.o
 
 .PHONY : test.o
@@ -906,6 +946,33 @@ u/Base128.s: u/Base128.c.s
 u/Base128.c.s:
 	$(MAKE) -f CMakeFiles/Base128.dir/build.make CMakeFiles/Base128.dir/u/Base128.c.s
 .PHONY : u/Base128.c.s
+
+u/Base128Lib.o: u/Base128Lib.c.o
+
+.PHONY : u/Base128Lib.o
+
+# target to build an object file
+u/Base128Lib.c.o:
+	$(MAKE) -f CMakeFiles/Base128.dir/build.make CMakeFiles/Base128.dir/u/Base128Lib.c.o
+.PHONY : u/Base128Lib.c.o
+
+u/Base128Lib.i: u/Base128Lib.c.i
+
+.PHONY : u/Base128Lib.i
+
+# target to preprocess a source file
+u/Base128Lib.c.i:
+	$(MAKE) -f CMakeFiles/Base128.dir/build.make CMakeFiles/Base128.dir/u/Base128Lib.c.i
+.PHONY : u/Base128Lib.c.i
+
+u/Base128Lib.s: u/Base128Lib.c.s
+
+.PHONY : u/Base128Lib.s
+
+# target to generate assembly for a file
+u/Base128Lib.c.s:
+	$(MAKE) -f CMakeFiles/Base128.dir/build.make CMakeFiles/Base128.dir/u/Base128Lib.c.s
+.PHONY : u/Base128Lib.c.s
 
 u/Base128_old.o: u/Base128_old.c.o
 
@@ -1123,6 +1190,33 @@ u/qmc.c.s:
 	$(MAKE) -f CMakeFiles/qmc.dir/build.make CMakeFiles/qmc.dir/u/qmc.c.s
 .PHONY : u/qmc.c.s
 
+u/qmcLib.o: u/qmcLib.c.o
+
+.PHONY : u/qmcLib.o
+
+# target to build an object file
+u/qmcLib.c.o:
+	$(MAKE) -f CMakeFiles/qmc.dir/build.make CMakeFiles/qmc.dir/u/qmcLib.c.o
+.PHONY : u/qmcLib.c.o
+
+u/qmcLib.i: u/qmcLib.c.i
+
+.PHONY : u/qmcLib.i
+
+# target to preprocess a source file
+u/qmcLib.c.i:
+	$(MAKE) -f CMakeFiles/qmc.dir/build.make CMakeFiles/qmc.dir/u/qmcLib.c.i
+.PHONY : u/qmcLib.c.i
+
+u/qmcLib.s: u/qmcLib.c.s
+
+.PHONY : u/qmcLib.s
+
+# target to generate assembly for a file
+u/qmcLib.c.s:
+	$(MAKE) -f CMakeFiles/qmc.dir/build.make CMakeFiles/qmc.dir/u/qmcLib.c.s
+.PHONY : u/qmcLib.c.s
+
 zhc.o: zhc.c.o
 
 .PHONY : zhc.o
@@ -1130,6 +1224,8 @@ zhc.o: zhc.c.o
 # target to build an object file
 zhc.c.o:
 	$(MAKE) -f CMakeFiles/zhc.dir/build.make CMakeFiles/zhc.dir/zhc.c.o
+	$(MAKE) -f CMakeFiles/qmc.dir/build.make CMakeFiles/qmc.dir/zhc.c.o
+	$(MAKE) -f CMakeFiles/Base128.dir/build.make CMakeFiles/Base128.dir/zhc.c.o
 .PHONY : zhc.c.o
 
 zhc.i: zhc.c.i
@@ -1139,6 +1235,8 @@ zhc.i: zhc.c.i
 # target to preprocess a source file
 zhc.c.i:
 	$(MAKE) -f CMakeFiles/zhc.dir/build.make CMakeFiles/zhc.dir/zhc.c.i
+	$(MAKE) -f CMakeFiles/qmc.dir/build.make CMakeFiles/qmc.dir/zhc.c.i
+	$(MAKE) -f CMakeFiles/Base128.dir/build.make CMakeFiles/Base128.dir/zhc.c.i
 .PHONY : zhc.c.i
 
 zhc.s: zhc.c.s
@@ -1148,6 +1246,8 @@ zhc.s: zhc.c.s
 # target to generate assembly for a file
 zhc.c.s:
 	$(MAKE) -f CMakeFiles/zhc.dir/build.make CMakeFiles/zhc.dir/zhc.c.s
+	$(MAKE) -f CMakeFiles/qmc.dir/build.make CMakeFiles/qmc.dir/zhc.c.s
+	$(MAKE) -f CMakeFiles/Base128.dir/build.make CMakeFiles/Base128.dir/zhc.c.s
 .PHONY : zhc.c.s
 
 # Help Target
@@ -1159,6 +1259,7 @@ help:
 	@echo "... zhc"
 	@echo "... cat_file"
 	@echo "... kwm"
+	@echo "... s0"
 	@echo "... qmc"
 	@echo "... TEA"
 	@echo "... getFileSize"
@@ -1214,6 +1315,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... s/s0.o"
+	@echo "... s/s0.i"
+	@echo "... s/s0.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"
@@ -1235,6 +1339,9 @@ help:
 	@echo "... u/Base128.o"
 	@echo "... u/Base128.i"
 	@echo "... u/Base128.s"
+	@echo "... u/Base128Lib.o"
+	@echo "... u/Base128Lib.i"
+	@echo "... u/Base128Lib.s"
 	@echo "... u/Base128_old.o"
 	@echo "... u/Base128_old.i"
 	@echo "... u/Base128_old.s"
@@ -1259,6 +1366,9 @@ help:
 	@echo "... u/qmc.o"
 	@echo "... u/qmc.i"
 	@echo "... u/qmc.s"
+	@echo "... u/qmcLib.o"
+	@echo "... u/qmcLib.i"
+	@echo "... u/qmcLib.s"
 	@echo "... zhc.o"
 	@echo "... zhc.i"
 	@echo "... zhc.s"

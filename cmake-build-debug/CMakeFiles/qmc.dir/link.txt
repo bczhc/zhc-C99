@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/qmc.dir/u/qmc.c.o  -o qmc 
+/usr/bin/cc -g   CMakeFiles/qmc.dir/u/qmc.c.o CMakeFiles/qmc.dir/u/qmcLib.c.o CMakeFiles/qmc.dir/zhc.c.o  -o qmc 

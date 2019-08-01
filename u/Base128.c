@@ -13,20 +13,22 @@ int main(/*const */int argc, char *argv[]) {
     int d = (!strcmp(dA, "-DECODE")) ? 1 : 0;
     char FileName[strlen(argv[2]) + 1], DestFileName[strlen(argv[argc == 3 ? 2 : 3]) + 1 + ((argc == 3) ? 4 : 0)];
     strcpy(FileName, argv[2]);
-    char zFN[strlen(argv[2]) + 1 + ((argc == 3) ? 4 : 0)];
+    char *zFN = NULL;
     if (argc == 3) {
-        NewFileName(zFN, argv[2]);
+        NewFileName(&zFN, argv[2]);
         strcpy(DestFileName, zFN);
     } else if (argc == 4) {
         strcpy(DestFileName, argv[3]);
     }
+    int r;
     if (!d) {
         printf("%s", "Encoding...\n");
-        eD(FileName, DestFileName);
+        r = eD(FileName, DestFileName);
     } else {
         printf("%s", "Decoding...\n");
-        dD(FileName, DestFileName);
+        r = dD(FileName, DestFileName);
     }
+    if (r != 0) return r;
     if (argc == 3) {
         remove(argv[2]);
         rename(zFN, argv[2]);

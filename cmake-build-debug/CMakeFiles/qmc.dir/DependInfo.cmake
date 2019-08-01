@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/root/myHome/zhc/code/code/C99/u/qmc.c" "/root/myHome/zhc/code/code/C99/cmake-build-debug/CMakeFiles/qmc.dir/u/qmc.c.o"
+  "/home/zhc/code/code/C99/u/qmc.c" "/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/qmc.dir/u/qmc.c.o"
+  "/home/zhc/code/code/C99/u/qmcLib.c" "/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/qmc.dir/u/qmcLib.c.o"
+  "/home/zhc/code/code/C99/zhc.c" "/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/qmc.dir/zhc.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

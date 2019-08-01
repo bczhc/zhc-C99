@@ -6,7 +6,7 @@
 
 int main(const int argc, const char *argv[]) {
     if (argc > 2) {
-        decode(argv[1], argv[2]);
+        return decode(argv[1], argv[2]);
     } else printf("Command [source file path] [dest file path]\n");
     return 0;
 }

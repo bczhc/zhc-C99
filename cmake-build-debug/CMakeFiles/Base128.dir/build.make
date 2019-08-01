@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /root/myHome/zhc/bin/clion-2019.1.3/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/zhc/bin/clion-2019.1.3/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /root/myHome/zhc/bin/clion-2019.1.3/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/zhc/bin/clion-2019.1.3/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/myHome/zhc/code/code/C99
+CMAKE_SOURCE_DIR = /home/zhc/code/code/C99
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/myHome/zhc/code/code/C99/cmake-build-debug
+CMAKE_BINARY_DIR = /home/zhc/code/code/C99/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Base128.dir/depend.make
@@ -59,28 +59,58 @@ include CMakeFiles/Base128.dir/flags.make
 
 CMakeFiles/Base128.dir/u/Base128.c.o: CMakeFiles/Base128.dir/flags.make
 CMakeFiles/Base128.dir/u/Base128.c.o: ../u/Base128.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/myHome/zhc/code/code/C99/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Base128.dir/u/Base128.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Base128.dir/u/Base128.c.o   -c /root/myHome/zhc/code/code/C99/u/Base128.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Base128.dir/u/Base128.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Base128.dir/u/Base128.c.o   -c /home/zhc/code/code/C99/u/Base128.c
 
 CMakeFiles/Base128.dir/u/Base128.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Base128.dir/u/Base128.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/myHome/zhc/code/code/C99/u/Base128.c > CMakeFiles/Base128.dir/u/Base128.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhc/code/code/C99/u/Base128.c > CMakeFiles/Base128.dir/u/Base128.c.i
 
 CMakeFiles/Base128.dir/u/Base128.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Base128.dir/u/Base128.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/myHome/zhc/code/code/C99/u/Base128.c -o CMakeFiles/Base128.dir/u/Base128.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhc/code/code/C99/u/Base128.c -o CMakeFiles/Base128.dir/u/Base128.c.s
+
+CMakeFiles/Base128.dir/u/Base128Lib.c.o: CMakeFiles/Base128.dir/flags.make
+CMakeFiles/Base128.dir/u/Base128Lib.c.o: ../u/Base128Lib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Base128.dir/u/Base128Lib.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Base128.dir/u/Base128Lib.c.o   -c /home/zhc/code/code/C99/u/Base128Lib.c
+
+CMakeFiles/Base128.dir/u/Base128Lib.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Base128.dir/u/Base128Lib.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhc/code/code/C99/u/Base128Lib.c > CMakeFiles/Base128.dir/u/Base128Lib.c.i
+
+CMakeFiles/Base128.dir/u/Base128Lib.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Base128.dir/u/Base128Lib.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhc/code/code/C99/u/Base128Lib.c -o CMakeFiles/Base128.dir/u/Base128Lib.c.s
+
+CMakeFiles/Base128.dir/zhc.c.o: CMakeFiles/Base128.dir/flags.make
+CMakeFiles/Base128.dir/zhc.c.o: ../zhc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Base128.dir/zhc.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Base128.dir/zhc.c.o   -c /home/zhc/code/code/C99/zhc.c
+
+CMakeFiles/Base128.dir/zhc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Base128.dir/zhc.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhc/code/code/C99/zhc.c > CMakeFiles/Base128.dir/zhc.c.i
+
+CMakeFiles/Base128.dir/zhc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Base128.dir/zhc.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhc/code/code/C99/zhc.c -o CMakeFiles/Base128.dir/zhc.c.s
 
 # Object files for target Base128
 Base128_OBJECTS = \
-"CMakeFiles/Base128.dir/u/Base128.c.o"
+"CMakeFiles/Base128.dir/u/Base128.c.o" \
+"CMakeFiles/Base128.dir/u/Base128Lib.c.o" \
+"CMakeFiles/Base128.dir/zhc.c.o"
 
 # External object files for target Base128
 Base128_EXTERNAL_OBJECTS =
 
 Base128: CMakeFiles/Base128.dir/u/Base128.c.o
+Base128: CMakeFiles/Base128.dir/u/Base128Lib.c.o
+Base128: CMakeFiles/Base128.dir/zhc.c.o
 Base128: CMakeFiles/Base128.dir/build.make
 Base128: CMakeFiles/Base128.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/myHome/zhc/code/code/C99/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Base128"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable Base128"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Base128.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -93,6 +123,6 @@ CMakeFiles/Base128.dir/clean:
 .PHONY : CMakeFiles/Base128.dir/clean
 
 CMakeFiles/Base128.dir/depend:
-	cd /root/myHome/zhc/code/code/C99/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/myHome/zhc/code/code/C99 /root/myHome/zhc/code/code/C99 /root/myHome/zhc/code/code/C99/cmake-build-debug /root/myHome/zhc/code/code/C99/cmake-build-debug /root/myHome/zhc/code/code/C99/cmake-build-debug/CMakeFiles/Base128.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zhc/code/code/C99/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zhc/code/code/C99 /home/zhc/code/code/C99 /home/zhc/code/code/C99/cmake-build-debug /home/zhc/code/code/C99/cmake-build-debug /home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/Base128.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Base128.dir/depend
 

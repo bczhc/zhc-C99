@@ -19,7 +19,7 @@ void f() {
 }
 
 int main(const int argc, char **argv) {
-    signal(SIGINT, f);
+    if (argc > 1) signal(SIGINT, f);
     int b = argc == 2;
     if (b) {
         if ((fp = fopen(argv[1], "a+")) == NULL) {

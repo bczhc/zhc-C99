@@ -71,6 +71,8 @@ int main(const int argc, char **argv) {
             }
             fwrite(buf, b, 1, fpO);
         }
+        fclose(fp);
+        fclose(fpO);
     }
     return 0;
 }

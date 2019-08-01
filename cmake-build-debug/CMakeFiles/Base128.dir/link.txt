@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/Base128.dir/u/Base128.c.o  -o Base128 
+/usr/bin/cc -g   CMakeFiles/Base128.dir/u/Base128.c.o CMakeFiles/Base128.dir/u/Base128Lib.c.o CMakeFiles/Base128.dir/zhc.c.o  -o Base128 

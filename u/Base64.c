@@ -68,6 +68,8 @@ int main(int argc, char *argv[]) {
                     int rL = e_1023P(R, r, b);
                     fwrite(R, rL, 1, fpO);
                 }
+                fclose(fp);
+                fclose(fpO);
                 printf("Done!\n");
             }
         }

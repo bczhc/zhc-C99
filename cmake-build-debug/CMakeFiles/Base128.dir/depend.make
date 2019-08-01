@@ -5,3 +5,10 @@ CMakeFiles/Base128.dir/u/Base128.c.o: ../u/Base128.c
 CMakeFiles/Base128.dir/u/Base128.c.o: ../u/Base128Lib.h
 CMakeFiles/Base128.dir/u/Base128.c.o: ../zhc.h
 
+CMakeFiles/Base128.dir/u/Base128Lib.c.o: ../u/Base128Lib.c
+CMakeFiles/Base128.dir/u/Base128Lib.c.o: ../u/Base128Lib.h
+CMakeFiles/Base128.dir/u/Base128Lib.c.o: ../zhc.h
+
+CMakeFiles/Base128.dir/zhc.c.o: ../zhc.c
+CMakeFiles/Base128.dir/zhc.c.o: ../zhc.h
+

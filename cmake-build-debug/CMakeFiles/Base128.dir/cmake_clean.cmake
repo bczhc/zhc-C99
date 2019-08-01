@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Base128.dir/u/Base128.c.o"
+  "CMakeFiles/Base128.dir/u/Base128Lib.c.o"
+  "CMakeFiles/Base128.dir/zhc.c.o"
   "Base128.pdb"
   "Base128"
 )
