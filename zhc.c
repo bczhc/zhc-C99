@@ -99,6 +99,18 @@ int getIntegerLen(const int x) {
     return r;
 }
 
+int getLongLen(const long x) {
+    long n = x;
+    int r = 0;
+    while (1) {
+        long b = n / 10;
+        r++;
+        n = b;
+        if (!b) break;
+    }
+    return r;
+}
+
 void Scanf(char **Dest) {
     char c;
     int i = 1;
@@ -126,6 +138,7 @@ void strcpyAndCat_auto(char **Dest, const char *cpy_s, const char *cat_s) {
 }
 
 void strcat_auto(char **sourceDest, const char *cat_s) {
+    \
     if (*sourceDest == NULL) {
         *sourceDest = (char *) malloc(1);
         (*sourceDest)[0] = 0;
@@ -254,6 +267,17 @@ void m_itoa(char **Dest, const int i) {
 /*void m_lltoa(char **Dest, const dl int ll) {
 
 }*/
+
+void m_ltoa(char **Dest, const long i) {
+    int I_L = getLongLen(i);
+    *Dest = (char *) malloc((size_t) (I_L + 1));
+    long d_i = 0;
+    for (long j = I_L - 1; j >= 0; --j) {
+        (*Dest)[d_i] = (int) (((long long) i) / ((long long) m_pow(10LL, j)) % 10) + 48;
+        ++d_i;
+    }
+    (*Dest)[d_i] = 0;
+}
 
 int split(char ***Dest, const char *SourceString, const char *SplitStr) {
     int *pos = NULL;

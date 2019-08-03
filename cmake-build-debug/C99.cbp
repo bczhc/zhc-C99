@@ -1213,11 +1213,13 @@
 		</Unit>
 		<Unit filename="/home/zhc/code/code/C99/zhc.c">
 			<Option target="zhc"/>
+			<Option target="s0"/>
 			<Option target="qmc"/>
 			<Option target="Base128"/>
 		</Unit>
 		<Unit filename="/home/zhc/code/code/C99/zhc.h">
 			<Option target="zhc"/>
+			<Option target="s0"/>
 			<Option target="qmc"/>
 			<Option target="Base128"/>
 		</Unit>

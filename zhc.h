@@ -40,6 +40,8 @@ long long getFileSize(FILE *fp);
 
 int getIntegerLen(const int x);
 
+int getLongLen(const long x);
+
 void Scanf(char **Dest);
 
 void strcpyAndCat_auto(char **Dest, const char *cpy_s, const char *cat_s);
@@ -119,6 +121,8 @@ void m_itoa(char **Dest, const int i);
 /*void m_lltoa(char **Dest, const dl int ll) {
 
 }*/
+
+void m_ltoa(char **Dest, const long l);
 
 int split(char ***Dest, const char *SourceString, const char *SplitStr);
 

@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /home/zhc/code/code/C99/cmake-build-debug
 CMakeFiles/zhc.dir/all:
 	$(MAKE) -f CMakeFiles/zhc.dir/build.make CMakeFiles/zhc.dir/depend
 	$(MAKE) -f CMakeFiles/zhc.dir/build.make CMakeFiles/zhc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles --progress-num=57,58 "Built target zhc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles --progress-num=58,59 "Built target zhc"
 .PHONY : CMakeFiles/zhc.dir/all
 
 # Include target in all.
@@ -182,7 +182,7 @@ clean: CMakeFiles/kwm.dir/clean
 CMakeFiles/s0.dir/all:
 	$(MAKE) -f CMakeFiles/s0.dir/build.make CMakeFiles/s0.dir/depend
 	$(MAKE) -f CMakeFiles/s0.dir/build.make CMakeFiles/s0.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target s0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles --progress-num=43,44,45 "Built target s0"
 .PHONY : CMakeFiles/s0.dir/all
 
 # Include target in all.
@@ -192,7 +192,7 @@ all: CMakeFiles/s0.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/s0.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhc/code/code/C99/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhc/code/code/C99/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/s0.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhc/code/code/C99/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/s0.dir/rule
@@ -367,7 +367,7 @@ clean: CMakeFiles/demo4.dir/clean
 CMakeFiles/test.dir/all:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles --progress-num=46,47 "Built target test"
 .PHONY : CMakeFiles/test.dir/all
 
 # Include target in all.
@@ -737,7 +737,7 @@ clean: CMakeFiles/TwoFilesXor.dir/clean
 CMakeFiles/test8.dir/all:
 	$(MAKE) -f CMakeFiles/test8.dir/build.make CMakeFiles/test8.dir/depend
 	$(MAKE) -f CMakeFiles/test8.dir/build.make CMakeFiles/test8.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles --progress-num=53,54 "Built target test8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles --progress-num=54,55 "Built target test8"
 .PHONY : CMakeFiles/test8.dir/all
 
 # Include target in all.
@@ -848,7 +848,7 @@ clean: CMakeFiles/demo0.dir/clean
 CMakeFiles/test6.dir/all:
 	$(MAKE) -f CMakeFiles/test6.dir/build.make CMakeFiles/test6.dir/depend
 	$(MAKE) -f CMakeFiles/test6.dir/build.make CMakeFiles/test6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target test6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles --progress-num=50,51 "Built target test6"
 .PHONY : CMakeFiles/test6.dir/all
 
 # Include target in all.
@@ -885,7 +885,7 @@ clean: CMakeFiles/test6.dir/clean
 CMakeFiles/test7.dir/all:
 	$(MAKE) -f CMakeFiles/test7.dir/build.make CMakeFiles/test7.dir/depend
 	$(MAKE) -f CMakeFiles/test7.dir/build.make CMakeFiles/test7.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target test7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles --progress-num=52,53 "Built target test7"
 .PHONY : CMakeFiles/test7.dir/all
 
 # Include target in all.
@@ -959,7 +959,7 @@ clean: CMakeFiles/Base128_dir.dir/clean
 CMakeFiles/test10.dir/all:
 	$(MAKE) -f CMakeFiles/test10.dir/build.make CMakeFiles/test10.dir/depend
 	$(MAKE) -f CMakeFiles/test10.dir/build.make CMakeFiles/test10.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles --progress-num=47,48 "Built target test10"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles --progress-num=48,49 "Built target test10"
 .PHONY : CMakeFiles/test10.dir/all
 
 # Include target in all.
@@ -996,7 +996,7 @@ clean: CMakeFiles/test10.dir/clean
 CMakeFiles/test9.dir/all:
 	$(MAKE) -f CMakeFiles/test9.dir/build.make CMakeFiles/test9.dir/depend
 	$(MAKE) -f CMakeFiles/test9.dir/build.make CMakeFiles/test9.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles --progress-num=55,56 "Built target test9"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles --progress-num=56,57 "Built target test9"
 .PHONY : CMakeFiles/test9.dir/all
 
 # Include target in all.

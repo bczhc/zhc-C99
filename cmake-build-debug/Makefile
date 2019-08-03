@@ -1224,6 +1224,7 @@ zhc.o: zhc.c.o
 # target to build an object file
 zhc.c.o:
 	$(MAKE) -f CMakeFiles/zhc.dir/build.make CMakeFiles/zhc.dir/zhc.c.o
+	$(MAKE) -f CMakeFiles/s0.dir/build.make CMakeFiles/s0.dir/zhc.c.o
 	$(MAKE) -f CMakeFiles/qmc.dir/build.make CMakeFiles/qmc.dir/zhc.c.o
 	$(MAKE) -f CMakeFiles/Base128.dir/build.make CMakeFiles/Base128.dir/zhc.c.o
 .PHONY : zhc.c.o
@@ -1235,6 +1236,7 @@ zhc.i: zhc.c.i
 # target to preprocess a source file
 zhc.c.i:
 	$(MAKE) -f CMakeFiles/zhc.dir/build.make CMakeFiles/zhc.dir/zhc.c.i
+	$(MAKE) -f CMakeFiles/s0.dir/build.make CMakeFiles/s0.dir/zhc.c.i
 	$(MAKE) -f CMakeFiles/qmc.dir/build.make CMakeFiles/qmc.dir/zhc.c.i
 	$(MAKE) -f CMakeFiles/Base128.dir/build.make CMakeFiles/Base128.dir/zhc.c.i
 .PHONY : zhc.c.i
@@ -1246,6 +1248,7 @@ zhc.s: zhc.c.s
 # target to generate assembly for a file
 zhc.c.s:
 	$(MAKE) -f CMakeFiles/zhc.dir/build.make CMakeFiles/zhc.dir/zhc.c.s
+	$(MAKE) -f CMakeFiles/s0.dir/build.make CMakeFiles/s0.dir/zhc.c.s
 	$(MAKE) -f CMakeFiles/qmc.dir/build.make CMakeFiles/qmc.dir/zhc.c.s
 	$(MAKE) -f CMakeFiles/Base128.dir/build.make CMakeFiles/Base128.dir/zhc.c.s
 .PHONY : zhc.c.s
