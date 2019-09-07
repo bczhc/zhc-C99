@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Base64.dir/u/Base64.c.o"
+  "CMakeFiles/Base64.dir/u/Base64Lib.c.o"
+  "CMakeFiles/Base64.dir/zhc.c.o"
   "Base64.pdb"
   "Base64"
 )

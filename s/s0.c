@@ -3,6 +3,7 @@
 //
 #include <stdio.h>
 #include <stdint.h>
+#include <jni.h>
 #include "../zhc.h"
 
 void pi(int bN) {
@@ -56,5 +57,19 @@ int main() {
     long l = 999999999999999999L;
     m_ltoa(&s, l);
     printf("%s\n", s);*/
+    /*float f = 999999999999999999;
+    char *s = (char *) &f;
+    for (int i = 0; i < 4; ++i) {
+        printf("%i ", (int) s[i]);
+    }
+    printf("\n%f\n\n", f);
+    char c[] = {107, 11, 94, 93};
+    float r = *((float *) c);
+    printf("%f\n", r);*/
+    dl sum = 0;
+    for (int i = 0; i < 100000000; ++i) {
+        sum += i;
+    }
+    printf("%lld\n", sum);
     return 0;
 }

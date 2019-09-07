@@ -10,15 +10,21 @@
 int main(int argc, char *argv[]) {
     if (argc <= 1) return 0;
     if (argc == 2) {
-        eD(argv[1]);
+        char *R = NULL;
+        eD(&R, argv[1]);
+        printf("\n%s\n", R);
+        free(R);
         return 0;
     } else if (argc >= 3) {
         int fM = Str_Cmp_nMatchCase(argv[argc - 1], "-f");
         if (Str_Cmp_nMatchCase(argv[1], "-decode")) {
-            sDT();
+            initDT();
             char *fN = argv[2];
-            if (!fM) dD(fN);
-            else {
+            if (!fM) {
+                char *R = NULL;
+                dD(&R, fN);
+                printf("\n%s\n", R);
+            } else {
                 //d
                 FILE *fp, *fpO;
                 if ((fp = fopen(fN, "rb")) == NULL) return -1;
@@ -42,7 +48,7 @@ int main(int argc, char *argv[]) {
             }
         } else {
             char *fN = argv[2];
-            if (!fM) eD(fN);
+            if (!fM) eD(NULL, fN);
             else {
                 //e
                 FILE *fp, *fpO;

@@ -18,6 +18,7 @@
 #endif
 #define dl long long
 #define usi unsigned int
+#endif //C99_ZHC_H
 
 char *ToUpperCase(char *Dest, const char *string);
 
@@ -130,4 +131,12 @@ int cmpIntArray(const int *a1, const int a1Len, const int *a2, const int a2Len);
 
 int cmpCharArray(const char *a1, const int a1Len, const char *a2, const int a2Len);
 
-#endif //C99_ZHC_H
+int charArrToInt(const char *s, size_t size);
+
+int getBiggerNum(const int a, const int b);
+
+int firstIndexOf(const char *s, const int s_len, const char c);
+
+char m_itoc(const int i);
+
+int m_ctoi(const char c);

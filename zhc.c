@@ -138,7 +138,6 @@ void strcpyAndCat_auto(char **Dest, const char *cpy_s, const char *cat_s) {
 }
 
 void strcat_auto(char **sourceDest, const char *cat_s) {
-    \
     if (*sourceDest == NULL) {
         *sourceDest = (char *) malloc(1);
         (*sourceDest)[0] = 0;
@@ -316,4 +315,31 @@ int cmpCharArray(const char *a1, const int a1Len, const char *a2, const int a2Le
         }
     }
     return 1;
+}
+
+int charArrToInt(const char *s, size_t size) {
+    int r = 0;
+    for (int i = 0; i < size; ++i) {
+        r += ((usi) s[i] - 48) * m_pow(10LL, size - i - 1);
+    }
+    return r;
+}
+
+int getBiggerNum(const int a, const int b) {
+    return a > b ? a : b;
+}
+
+int firstIndexOf(const char *s, const int s_len, const char c) {
+    for (int i = 0; i < s_len; ++i) {
+        if (s[i] == c) return i;
+    }
+    return -1;
+}
+
+char m_itoc(const int i) {
+    return (char) (i + 48);
+}
+
+int m_ctoi(const char c) {
+    return (int) c - 48;
 }

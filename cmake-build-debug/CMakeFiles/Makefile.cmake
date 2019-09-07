@@ -44,6 +44,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/BigDecimal.dir/DependInfo.cmake"
   "CMakeFiles/zhc.dir/DependInfo.cmake"
   "CMakeFiles/cat_file.dir/DependInfo.cmake"
   "CMakeFiles/kwm.dir/DependInfo.cmake"
@@ -63,6 +64,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Main.dir/DependInfo.cmake"
   "CMakeFiles/TwoFilesXor.dir/DependInfo.cmake"
   "CMakeFiles/test8.dir/DependInfo.cmake"
+  "CMakeFiles/cmpDate.dir/DependInfo.cmake"
   "CMakeFiles/FileXor.dir/DependInfo.cmake"
   "CMakeFiles/demo0.dir/DependInfo.cmake"
   "CMakeFiles/test6.dir/DependInfo.cmake"

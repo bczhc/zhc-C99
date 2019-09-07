@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/Base64.dir/u/Base64.c.o  -o Base64 
+/usr/bin/cc -g   CMakeFiles/Base64.dir/u/Base64.c.o CMakeFiles/Base64.dir/u/Base64Lib.c.o CMakeFiles/Base64.dir/zhc.c.o  -o Base64 

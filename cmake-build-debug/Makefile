@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named BigDecimal
+
+# Build rule for target.
+BigDecimal: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BigDecimal
+.PHONY : BigDecimal
+
+# fast build rule for target.
+BigDecimal/fast:
+	$(MAKE) -f CMakeFiles/BigDecimal.dir/build.make CMakeFiles/BigDecimal.dir/build
+.PHONY : BigDecimal/fast
+
+#=============================================================================
 # Target rules for targets named zhc
 
 # Build rule for target.
@@ -356,6 +369,19 @@ test8: cmake_check_build_system
 test8/fast:
 	$(MAKE) -f CMakeFiles/test8.dir/build.make CMakeFiles/test8.dir/build
 .PHONY : test8/fast
+
+#=============================================================================
+# Target rules for targets named cmpDate
+
+# Build rule for target.
+cmpDate: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cmpDate
+.PHONY : cmpDate
+
+# fast build rule for target.
+cmpDate/fast:
+	$(MAKE) -f CMakeFiles/cmpDate.dir/build.make CMakeFiles/cmpDate.dir/build
+.PHONY : cmpDate/fast
 
 #=============================================================================
 # Target rules for targets named FileXor
@@ -1028,6 +1054,60 @@ u/Base64.c.s:
 	$(MAKE) -f CMakeFiles/Base64.dir/build.make CMakeFiles/Base64.dir/u/Base64.c.s
 .PHONY : u/Base64.c.s
 
+u/Base64Lib.o: u/Base64Lib.c.o
+
+.PHONY : u/Base64Lib.o
+
+# target to build an object file
+u/Base64Lib.c.o:
+	$(MAKE) -f CMakeFiles/Base64.dir/build.make CMakeFiles/Base64.dir/u/Base64Lib.c.o
+.PHONY : u/Base64Lib.c.o
+
+u/Base64Lib.i: u/Base64Lib.c.i
+
+.PHONY : u/Base64Lib.i
+
+# target to preprocess a source file
+u/Base64Lib.c.i:
+	$(MAKE) -f CMakeFiles/Base64.dir/build.make CMakeFiles/Base64.dir/u/Base64Lib.c.i
+.PHONY : u/Base64Lib.c.i
+
+u/Base64Lib.s: u/Base64Lib.c.s
+
+.PHONY : u/Base64Lib.s
+
+# target to generate assembly for a file
+u/Base64Lib.c.s:
+	$(MAKE) -f CMakeFiles/Base64.dir/build.make CMakeFiles/Base64.dir/u/Base64Lib.c.s
+.PHONY : u/Base64Lib.c.s
+
+u/BigDecimal.o: u/BigDecimal.c.o
+
+.PHONY : u/BigDecimal.o
+
+# target to build an object file
+u/BigDecimal.c.o:
+	$(MAKE) -f CMakeFiles/BigDecimal.dir/build.make CMakeFiles/BigDecimal.dir/u/BigDecimal.c.o
+.PHONY : u/BigDecimal.c.o
+
+u/BigDecimal.i: u/BigDecimal.c.i
+
+.PHONY : u/BigDecimal.i
+
+# target to preprocess a source file
+u/BigDecimal.c.i:
+	$(MAKE) -f CMakeFiles/BigDecimal.dir/build.make CMakeFiles/BigDecimal.dir/u/BigDecimal.c.i
+.PHONY : u/BigDecimal.c.i
+
+u/BigDecimal.s: u/BigDecimal.c.s
+
+.PHONY : u/BigDecimal.s
+
+# target to generate assembly for a file
+u/BigDecimal.c.s:
+	$(MAKE) -f CMakeFiles/BigDecimal.dir/build.make CMakeFiles/BigDecimal.dir/u/BigDecimal.c.s
+.PHONY : u/BigDecimal.c.s
+
 u/FileXor.o: u/FileXor.c.o
 
 .PHONY : u/FileXor.o
@@ -1108,6 +1188,33 @@ u/cat_file.s: u/cat_file.c.s
 u/cat_file.c.s:
 	$(MAKE) -f CMakeFiles/cat_file.dir/build.make CMakeFiles/cat_file.dir/u/cat_file.c.s
 .PHONY : u/cat_file.c.s
+
+u/cmpDate.o: u/cmpDate.c.o
+
+.PHONY : u/cmpDate.o
+
+# target to build an object file
+u/cmpDate.c.o:
+	$(MAKE) -f CMakeFiles/cmpDate.dir/build.make CMakeFiles/cmpDate.dir/u/cmpDate.c.o
+.PHONY : u/cmpDate.c.o
+
+u/cmpDate.i: u/cmpDate.c.i
+
+.PHONY : u/cmpDate.i
+
+# target to preprocess a source file
+u/cmpDate.c.i:
+	$(MAKE) -f CMakeFiles/cmpDate.dir/build.make CMakeFiles/cmpDate.dir/u/cmpDate.c.i
+.PHONY : u/cmpDate.c.i
+
+u/cmpDate.s: u/cmpDate.c.s
+
+.PHONY : u/cmpDate.s
+
+# target to generate assembly for a file
+u/cmpDate.c.s:
+	$(MAKE) -f CMakeFiles/cmpDate.dir/build.make CMakeFiles/cmpDate.dir/u/cmpDate.c.s
+.PHONY : u/cmpDate.c.s
 
 u/encode.o: u/encode.c.o
 
@@ -1223,10 +1330,13 @@ zhc.o: zhc.c.o
 
 # target to build an object file
 zhc.c.o:
+	$(MAKE) -f CMakeFiles/BigDecimal.dir/build.make CMakeFiles/BigDecimal.dir/zhc.c.o
 	$(MAKE) -f CMakeFiles/zhc.dir/build.make CMakeFiles/zhc.dir/zhc.c.o
 	$(MAKE) -f CMakeFiles/s0.dir/build.make CMakeFiles/s0.dir/zhc.c.o
 	$(MAKE) -f CMakeFiles/qmc.dir/build.make CMakeFiles/qmc.dir/zhc.c.o
 	$(MAKE) -f CMakeFiles/Base128.dir/build.make CMakeFiles/Base128.dir/zhc.c.o
+	$(MAKE) -f CMakeFiles/cmpDate.dir/build.make CMakeFiles/cmpDate.dir/zhc.c.o
+	$(MAKE) -f CMakeFiles/Base64.dir/build.make CMakeFiles/Base64.dir/zhc.c.o
 .PHONY : zhc.c.o
 
 zhc.i: zhc.c.i
@@ -1235,10 +1345,13 @@ zhc.i: zhc.c.i
 
 # target to preprocess a source file
 zhc.c.i:
+	$(MAKE) -f CMakeFiles/BigDecimal.dir/build.make CMakeFiles/BigDecimal.dir/zhc.c.i
 	$(MAKE) -f CMakeFiles/zhc.dir/build.make CMakeFiles/zhc.dir/zhc.c.i
 	$(MAKE) -f CMakeFiles/s0.dir/build.make CMakeFiles/s0.dir/zhc.c.i
 	$(MAKE) -f CMakeFiles/qmc.dir/build.make CMakeFiles/qmc.dir/zhc.c.i
 	$(MAKE) -f CMakeFiles/Base128.dir/build.make CMakeFiles/Base128.dir/zhc.c.i
+	$(MAKE) -f CMakeFiles/cmpDate.dir/build.make CMakeFiles/cmpDate.dir/zhc.c.i
+	$(MAKE) -f CMakeFiles/Base64.dir/build.make CMakeFiles/Base64.dir/zhc.c.i
 .PHONY : zhc.c.i
 
 zhc.s: zhc.c.s
@@ -1247,10 +1360,13 @@ zhc.s: zhc.c.s
 
 # target to generate assembly for a file
 zhc.c.s:
+	$(MAKE) -f CMakeFiles/BigDecimal.dir/build.make CMakeFiles/BigDecimal.dir/zhc.c.s
 	$(MAKE) -f CMakeFiles/zhc.dir/build.make CMakeFiles/zhc.dir/zhc.c.s
 	$(MAKE) -f CMakeFiles/s0.dir/build.make CMakeFiles/s0.dir/zhc.c.s
 	$(MAKE) -f CMakeFiles/qmc.dir/build.make CMakeFiles/qmc.dir/zhc.c.s
 	$(MAKE) -f CMakeFiles/Base128.dir/build.make CMakeFiles/Base128.dir/zhc.c.s
+	$(MAKE) -f CMakeFiles/cmpDate.dir/build.make CMakeFiles/cmpDate.dir/zhc.c.s
+	$(MAKE) -f CMakeFiles/Base64.dir/build.make CMakeFiles/Base64.dir/zhc.c.s
 .PHONY : zhc.c.s
 
 # Help Target
@@ -1259,6 +1375,7 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... BigDecimal"
 	@echo "... zhc"
 	@echo "... cat_file"
 	@echo "... kwm"
@@ -1280,6 +1397,7 @@ help:
 	@echo "... TwoFilesXor"
 	@echo "... test8"
 	@echo "... rebuild_cache"
+	@echo "... cmpDate"
 	@echo "... FileXor"
 	@echo "... demo0"
 	@echo "... test6"
@@ -1351,6 +1469,12 @@ help:
 	@echo "... u/Base64.o"
 	@echo "... u/Base64.i"
 	@echo "... u/Base64.s"
+	@echo "... u/Base64Lib.o"
+	@echo "... u/Base64Lib.i"
+	@echo "... u/Base64Lib.s"
+	@echo "... u/BigDecimal.o"
+	@echo "... u/BigDecimal.i"
+	@echo "... u/BigDecimal.s"
 	@echo "... u/FileXor.o"
 	@echo "... u/FileXor.i"
 	@echo "... u/FileXor.s"
@@ -1360,6 +1484,9 @@ help:
 	@echo "... u/cat_file.o"
 	@echo "... u/cat_file.i"
 	@echo "... u/cat_file.s"
+	@echo "... u/cmpDate.o"
+	@echo "... u/cmpDate.i"
+	@echo "... u/cmpDate.s"
 	@echo "... u/encode.o"
 	@echo "... u/encode.i"
 	@echo "... u/encode.s"

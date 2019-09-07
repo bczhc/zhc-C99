@@ -17,6 +17,46 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhc/code/code/C99/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="BigDecimal">
+				<Option output="/home/zhc/code/code/C99/cmake-build-debug/BigDecimal" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhc/code/code/C99/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhc/code/code/C99/cmake-build-debug/Makefile&quot;  VERBOSE=1 BigDecimal"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhc/code/code/C99/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhc/code/code/C99/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhc/code/code/C99/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BigDecimal/fast">
+				<Option output="/home/zhc/code/code/C99/cmake-build-debug/BigDecimal" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhc/code/code/C99/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhc/code/code/C99/cmake-build-debug/Makefile&quot;  VERBOSE=1 BigDecimal/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhc/code/code/C99/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhc/code/code/C99/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhc/code/code/C99/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="zhc">
 				<Option output="/home/zhc/code/code/C99/cmake-build-debug/zhc" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/zhc/code/code/C99/cmake-build-debug"/>
@@ -797,6 +837,46 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhc/code/code/C99/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="cmpDate">
+				<Option output="/home/zhc/code/code/C99/cmake-build-debug/cmpDate" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhc/code/code/C99/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhc/code/code/C99/cmake-build-debug/Makefile&quot;  VERBOSE=1 cmpDate"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhc/code/code/C99/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhc/code/code/C99/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhc/code/code/C99/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cmpDate/fast">
+				<Option output="/home/zhc/code/code/C99/cmake-build-debug/cmpDate" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhc/code/code/C99/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhc/code/code/C99/cmake-build-debug/Makefile&quot;  VERBOSE=1 cmpDate/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhc/code/code/C99/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhc/code/code/C99/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhc/code/code/C99/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="FileXor">
 				<Option output="/home/zhc/code/code/C99/cmake-build-debug/FileXor" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/zhc/code/code/C99/cmake-build-debug"/>
@@ -1184,6 +1264,18 @@
 		<Unit filename="/home/zhc/code/code/C99/u/Base64.c">
 			<Option target="Base64"/>
 		</Unit>
+		<Unit filename="/home/zhc/code/code/C99/u/Base64Lib.c">
+			<Option target="Base64"/>
+		</Unit>
+		<Unit filename="/home/zhc/code/code/C99/u/Base64Lib.h">
+			<Option target="Base64"/>
+		</Unit>
+		<Unit filename="/home/zhc/code/code/C99/u/BigDecimal.c">
+			<Option target="BigDecimal"/>
+		</Unit>
+		<Unit filename="/home/zhc/code/code/C99/u/BigDecimal.h">
+			<Option target="BigDecimal"/>
+		</Unit>
 		<Unit filename="/home/zhc/code/code/C99/u/FileXor.c">
 			<Option target="FileXor"/>
 		</Unit>
@@ -1192,6 +1284,12 @@
 		</Unit>
 		<Unit filename="/home/zhc/code/code/C99/u/cat_file.c">
 			<Option target="cat_file"/>
+		</Unit>
+		<Unit filename="/home/zhc/code/code/C99/u/cmpDate.c">
+			<Option target="cmpDate"/>
+		</Unit>
+		<Unit filename="/home/zhc/code/code/C99/u/cmpDate.h">
+			<Option target="cmpDate"/>
 		</Unit>
 		<Unit filename="/home/zhc/code/code/C99/u/encode.c">
 			<Option target="Base128_dir"/>
@@ -1212,16 +1310,22 @@
 			<Option target="qmc"/>
 		</Unit>
 		<Unit filename="/home/zhc/code/code/C99/zhc.c">
+			<Option target="BigDecimal"/>
 			<Option target="zhc"/>
 			<Option target="s0"/>
 			<Option target="qmc"/>
 			<Option target="Base128"/>
+			<Option target="cmpDate"/>
+			<Option target="Base64"/>
 		</Unit>
 		<Unit filename="/home/zhc/code/code/C99/zhc.h">
+			<Option target="BigDecimal"/>
 			<Option target="zhc"/>
 			<Option target="s0"/>
 			<Option target="qmc"/>
 			<Option target="Base128"/>
+			<Option target="cmpDate"/>
+			<Option target="Base64"/>
 		</Unit>
 		<Unit filename="/home/zhc/code/code/C99/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
