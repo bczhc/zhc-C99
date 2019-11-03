@@ -45,7 +45,7 @@ int getLongLen(const long x);
 
 void Scanf(char **Dest);
 
-void strcpyAndCat_auto(char **Dest, const char *cpy_s, const char *cat_s);
+void strcpyAndCat_auto(char **Dest, const char *cpy_s,const int  cpy_s_length, const char *cat_s, const int cat_s_length);
 
 void strcat_auto(char **sourceDest, const char *cat_s);
 
@@ -140,3 +140,5 @@ int firstIndexOf(const char *s, const int s_len, const char c);
 char m_itoc(const int i);
 
 int m_ctoi(const char c);
+
+int Split(char ***dst, const char *s, int s_length, const char *separatorString, int separatorString_length);

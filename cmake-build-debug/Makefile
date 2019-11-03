@@ -1336,6 +1336,7 @@ zhc.c.o:
 	$(MAKE) -f CMakeFiles/qmc.dir/build.make CMakeFiles/qmc.dir/zhc.c.o
 	$(MAKE) -f CMakeFiles/Base128.dir/build.make CMakeFiles/Base128.dir/zhc.c.o
 	$(MAKE) -f CMakeFiles/cmpDate.dir/build.make CMakeFiles/cmpDate.dir/zhc.c.o
+	$(MAKE) -f CMakeFiles/demo0.dir/build.make CMakeFiles/demo0.dir/zhc.c.o
 	$(MAKE) -f CMakeFiles/Base64.dir/build.make CMakeFiles/Base64.dir/zhc.c.o
 .PHONY : zhc.c.o
 
@@ -1351,6 +1352,7 @@ zhc.c.i:
 	$(MAKE) -f CMakeFiles/qmc.dir/build.make CMakeFiles/qmc.dir/zhc.c.i
 	$(MAKE) -f CMakeFiles/Base128.dir/build.make CMakeFiles/Base128.dir/zhc.c.i
 	$(MAKE) -f CMakeFiles/cmpDate.dir/build.make CMakeFiles/cmpDate.dir/zhc.c.i
+	$(MAKE) -f CMakeFiles/demo0.dir/build.make CMakeFiles/demo0.dir/zhc.c.i
 	$(MAKE) -f CMakeFiles/Base64.dir/build.make CMakeFiles/Base64.dir/zhc.c.i
 .PHONY : zhc.c.i
 
@@ -1366,6 +1368,7 @@ zhc.c.s:
 	$(MAKE) -f CMakeFiles/qmc.dir/build.make CMakeFiles/qmc.dir/zhc.c.s
 	$(MAKE) -f CMakeFiles/Base128.dir/build.make CMakeFiles/Base128.dir/zhc.c.s
 	$(MAKE) -f CMakeFiles/cmpDate.dir/build.make CMakeFiles/cmpDate.dir/zhc.c.s
+	$(MAKE) -f CMakeFiles/demo0.dir/build.make CMakeFiles/demo0.dir/zhc.c.s
 	$(MAKE) -f CMakeFiles/Base64.dir/build.make CMakeFiles/Base64.dir/zhc.c.s
 .PHONY : zhc.c.s
 

@@ -1316,6 +1316,7 @@
 			<Option target="qmc"/>
 			<Option target="Base128"/>
 			<Option target="cmpDate"/>
+			<Option target="demo0"/>
 			<Option target="Base64"/>
 		</Unit>
 		<Unit filename="/home/zhc/code/code/C99/zhc.h">
@@ -1325,6 +1326,7 @@
 			<Option target="qmc"/>
 			<Option target="Base128"/>
 			<Option target="cmpDate"/>
+			<Option target="demo0"/>
 			<Option target="Base64"/>
 		</Unit>
 		<Unit filename="/home/zhc/code/code/C99/CMakeLists.txt">

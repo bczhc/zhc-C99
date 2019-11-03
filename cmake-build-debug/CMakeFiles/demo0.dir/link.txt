@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/demo0.dir/demo0.c.o  -o demo0 
+/usr/bin/cc -g   CMakeFiles/demo0.dir/demo0.c.o CMakeFiles/demo0.dir/zhc.c.o  -o demo0 -lpthread 

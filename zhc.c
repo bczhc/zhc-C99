@@ -126,14 +126,15 @@ void Scanf(char **Dest) {
     }
 }
 
-void strcpyAndCat_auto(char **Dest, const char *cpy_s, const char *cat_s) {
+void
+strcpyAndCat_auto(char **Dest, const char *cpy_s, const int cpy_s_length, const char *cat_s, const int cat_s_length) {
     *Dest = NULL;
-    int cpy_s_len = strlen(cpy_s);
-    int cat_s_len = strlen(cat_s);
+    int cpy_s_len = cpy_s_length;
+    int cat_s_len = cat_s_length;
     size_t size = cpy_s_len + cat_s_len + 1;
     *Dest = (char *) malloc(size);
-    strcpy(*Dest, cpy_s);
-    strcat(*Dest, cat_s);
+    strncpy(*Dest, cpy_s, cpy_s_length);
+    strncat(*Dest, cat_s, cat_s_length);
     (*Dest)[size - 1] = '\0';
 }
 
@@ -342,4 +343,50 @@ char m_itoc(const int i) {
 
 int m_ctoi(const char c) {
     return (int) c - 48;
+}
+
+int charsCmp(const char *longerS, const int longerS_length, const char *shorterS, const int shorterS_length,
+             const int longerS_startIndex) {
+    int r = 1;
+    for (int i = longerS_startIndex; i < longerS_startIndex + shorterS_length; ++i) {
+        if (longerS_startIndex == longerS_length)
+            return 0;
+        if (longerS[i] != shorterS[i - longerS_startIndex]) return 0;
+    }
+    return 1;
+}
+
+char **charcat(char **dst, const int addChar) {
+    if (*dst == NULL) {
+        *dst = (char *) malloc((size_t) (2));
+        (*dst)[0] = addChar;
+        (*dst)[1] = '\0';
+    } else {
+        int len = strlen(*dst);
+        *dst = (char *) realloc(*dst, len + 2);
+        (*dst)[len] = addChar;
+        (*dst)[len + 1] = '\0';
+    }
+    return dst;
+}
+
+int Split(char ***dst, const char *s, int s_length, const char *separatorString, int separatorString_length) {
+    *dst = (char **) malloc((size_t) (sizeof(char *) * 1)), (*dst)[0] = (char *) malloc(
+            (size_t) 1), (*dst)[0][0] = '\0';
+    if (s_length == -1) s_length = strlen(s);
+    if (separatorString_length == -1) separatorString_length = strlen(separatorString);
+    int pLen = sizeof(char *);
+    int dstI = 0;
+    int t = 0;
+    for (int i = 0; i < s_length; ++i) {
+        if (charsCmp(s, s_length, separatorString, separatorString_length, i) == 1) {
+            ++dstI;
+            *dst = (char **) realloc(*dst, (size_t) ((dstI + 1) * pLen)), (*dst)[dstI] = (char *) malloc(
+                    (size_t) 1), (*dst)[dstI][0] = '\0';
+            t = separatorString_length;
+        }
+        if (t-- > 0) continue;
+        charcat(&((*dst)[dstI]), s[i]);
+    }
+    return dstI + 1;
 }

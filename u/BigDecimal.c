@@ -49,7 +49,7 @@ char *BDMultiply(char **dest, const char *n1, int n1_len, const char *n2, int n2
 
 int main() {
     char *r = NULL;
-    char *n1 = ".1";
-    char *n2 = ".2";
+    char *n1 = "1";
+    char *n2 = "3";
     printf("%s\n", BDAdd(&r, n1, strlen(n1), n2, strlen(n2)));
 }
