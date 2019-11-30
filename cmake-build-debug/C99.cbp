@@ -17,6 +17,46 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhc/code/code/C99/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="aes_128_main">
+				<Option output="/home/zhc/code/code/C99/cmake-build-debug/aes_128_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhc/code/code/C99/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhc/code/code/C99/cmake-build-debug/Makefile&quot;  VERBOSE=1 aes_128_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhc/code/code/C99/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhc/code/code/C99/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhc/code/code/C99/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="aes_128_main/fast">
+				<Option output="/home/zhc/code/code/C99/cmake-build-debug/aes_128_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhc/code/code/C99/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhc/code/code/C99/cmake-build-debug/Makefile&quot;  VERBOSE=1 aes_128_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhc/code/code/C99/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhc/code/code/C99/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhc/code/code/C99/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="BigDecimal">
 				<Option output="/home/zhc/code/code/C99/cmake-build-debug/BigDecimal" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/zhc/code/code/C99/cmake-build-debug"/>
@@ -1265,9 +1305,11 @@
 			<Option target="Base64"/>
 		</Unit>
 		<Unit filename="/home/zhc/code/code/C99/u/Base64Lib.c">
+			<Option target="aes_128_main"/>
 			<Option target="Base64"/>
 		</Unit>
 		<Unit filename="/home/zhc/code/code/C99/u/Base64Lib.h">
+			<Option target="aes_128_main"/>
 			<Option target="Base64"/>
 		</Unit>
 		<Unit filename="/home/zhc/code/code/C99/u/BigDecimal.c">
@@ -1281,6 +1323,15 @@
 		</Unit>
 		<Unit filename="/home/zhc/code/code/C99/u/TEA.c">
 			<Option target="TEA"/>
+		</Unit>
+		<Unit filename="/home/zhc/code/code/C99/u/aes_128/aes.c">
+			<Option target="aes_128_main"/>
+		</Unit>
+		<Unit filename="/home/zhc/code/code/C99/u/aes_128/aes.h">
+			<Option target="aes_128_main"/>
+		</Unit>
+		<Unit filename="/home/zhc/code/code/C99/u/aes_128/main.c">
+			<Option target="aes_128_main"/>
 		</Unit>
 		<Unit filename="/home/zhc/code/code/C99/u/cat_file.c">
 			<Option target="cat_file"/>
@@ -1310,6 +1361,7 @@
 			<Option target="qmc"/>
 		</Unit>
 		<Unit filename="/home/zhc/code/code/C99/zhc.c">
+			<Option target="aes_128_main"/>
 			<Option target="BigDecimal"/>
 			<Option target="zhc"/>
 			<Option target="s0"/>
@@ -1320,6 +1372,7 @@
 			<Option target="Base64"/>
 		</Unit>
 		<Unit filename="/home/zhc/code/code/C99/zhc.h">
+			<Option target="aes_128_main"/>
 			<Option target="BigDecimal"/>
 			<Option target="zhc"/>
 			<Option target="s0"/>

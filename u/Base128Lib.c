@@ -168,10 +168,10 @@ void NewFileName(char **Dest, const char *filePath) {
         char *xS = NULL;
 //        itoa(x, xS, 10);
         m_itoa(&xS, x);
-        strcpyAndCat_auto(Dest, filePath, "");
-        strcpyAndCat_auto(Dest, *Dest, " (");
-        strcpyAndCat_auto(Dest, *Dest, xS);
-        strcpyAndCat_auto(Dest, *Dest, ")");
+        strcpyAndCat_auto(Dest, filePath, -1, " ", -1);
+        strcpyAndCat_auto(Dest, *Dest, -1, "(", -1);
+        strcpyAndCat_auto(Dest, *Dest, -1, xS, -1);
+        strcpyAndCat_auto(Dest, *Dest, -1, ")", -1);
         if (access(*Dest, F_OK) == EOF) break;
         ++x;
         free(xS);

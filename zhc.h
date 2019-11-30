@@ -45,7 +45,7 @@ int getLongLen(const long x);
 
 void Scanf(char **Dest);
 
-void strcpyAndCat_auto(char **Dest, const char *cpy_s,const int  cpy_s_length, const char *cat_s, const int cat_s_length);
+void strcpyAndCat_auto(char **Dest, const char *cpy_s ,int  cpy_s_length, const char *cat_s, int cat_s_length);
 
 void strcat_auto(char **sourceDest, const char *cat_s);
 

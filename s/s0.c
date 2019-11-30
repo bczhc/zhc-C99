@@ -30,7 +30,7 @@ void pi(int bN) {
         else s = t / M;
 //        printf("%li\n", pi[i]);
     }
-    for (strcpyAndCat_auto(&R, "3.", ""); ++i < N - 2;) {
+    for (strcpyAndCat_auto(&R, "3.", -1, "", -1); ++i < N - 2;) {
         char *R0 = NULL;
         m_itoa(&R0, (int) pi[i]);
         strcat_auto(&R, R0);
@@ -39,37 +39,11 @@ void pi(int bN) {
 }
 
 int main() {
-    /*int (*f)(int a1);
-    void *handle = dlopen("/home/zhc/code/code/java/src/test/libs/x86_64/liba.so", RTLD_LAZY);
-    f = dlsym(handle, "f0");
-    printf("%i\n", f(2));
-    dlclose(handle);*/
-//    char c = 'h';
-//    char *s = (char *) &c;
-//    printf("%s\n", (char *) &c);
-    /*char *s = NULL;
-    strcat_auto(&s, "a");
-    for (int i = 0; i < 1000; ++i) {
-        strcat_auto(&s, "b");
-    }
-    printf("%s\n", s);*/
-    /*char *s = NULL;
-    long l = 999999999999999999L;
-    m_ltoa(&s, l);
-    printf("%s\n", s);*/
-    /*float f = 999999999999999999;
-    char *s = (char *) &f;
-    for (int i = 0; i < 4; ++i) {
-        printf("%i ", (int) s[i]);
-    }
-    printf("\n%f\n\n", f);
-    char c[] = {107, 11, 94, 93};
-    float r = *((float *) c);
-    printf("%f\n", r);*/
-    dl sum = 0;
-    for (int i = 0; i < 100000000; ++i) {
-        sum += i;
-    }
-    printf("%lld\n", sum);
-    return 0;
+    char a[] = {1, 2};
+    int *b = (int *) malloc((size_t) 4);
+    *b = 123;
+    float c = 123.123;
+    free(b);
+    free(a);
+    free(&c);
 }

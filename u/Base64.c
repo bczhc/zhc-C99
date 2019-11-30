@@ -11,7 +11,7 @@ int main(int argc, char *argv[]) {
     if (argc <= 1) return 0;
     if (argc == 2) {
         char *R = NULL;
-        eD(&R, argv[1]);
+        eD(&R, argv[1], -1);
         printf("\n%s\n", R);
         free(R);
         return 0;
@@ -48,7 +48,7 @@ int main(int argc, char *argv[]) {
             }
         } else {
             char *fN = argv[2];
-            if (!fM) eD(NULL, fN);
+            if (!fM) eD(NULL, fN, -1);
             else {
                 //e
                 FILE *fp, *fpO;

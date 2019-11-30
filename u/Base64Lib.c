@@ -38,15 +38,16 @@ char *d1_EQ_M(char *Dest, const char cArr[4], int eqM_C) {
     }
 }
 
-void eD(char **Dest, const char *s) {
-    int a = strlen(s), b = a % 3, t = a / 3;
+void eD(char **Dest, const char *s, int len) {
+    if (len == -1) len = strlen(s);
+    int b = len % 3, t = len / 3;
     size_t size = t * 4 + (b ? 4 : 0);
     *Dest = (char *) malloc(size);
     char r[4] = {0};
     for (int i = 0; i < t; ++i) {
         e1(r, s + 3 * i);
         for (int j = 0; j < 4; ++j) {
-            printf("%c", r[j]);
+//            printf("%c", r[j]);
             (*Dest)[i * 4 + j] = r[j];
         }
     }
@@ -57,11 +58,11 @@ void eD(char **Dest, const char *s) {
         }
         e1(r, n);
         for (int k = 0; k < b + 1; ++k) {
-            printf("%c", r[k]);
+//            printf("%c", r[k]);
             (*Dest)[size - 4 + k] = r[k];
         }
         for (int j = 0; j < 3 - b; ++j) {
-            printf("%c", '=');
+//            printf("%c", '=');
         }
         for (int l = size - 1; l > size - 1 - (3 - b); --l) {
             (*Dest)[l] = '=';
@@ -82,14 +83,14 @@ void dD(char **Dest, const char *s) {
             for (int j = 0; j < 3; ++j) {
                 c2S[0] = r[j];
                 strcat_auto(Dest, c2S);
-                printf("%c", r[j]);
+//                printf("%c", r[j]);
             }
         }
         d1_EQ_M(r, s + b * 4, eqMC);
         for (int l = 0; l < 3 - eqMC; ++l) {
             c2S[0] = r[l];
             strcat_auto(Dest, c2S);
-            printf("%c", r[l]);
+//            printf("%c", r[l]);
         }
     } else {
         for (int i = 0; i < t; ++i) {
@@ -97,7 +98,7 @@ void dD(char **Dest, const char *s) {
             for (int j = 0; j < 3; ++j) {
                 c2S[0] = r[j];
                 strcat_auto(Dest, c2S);
-                printf("%c", r[j]);
+//                printf("%c", r[j]);
             }
         }
     }

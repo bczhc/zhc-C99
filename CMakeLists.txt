@@ -36,6 +36,7 @@ add_executable(zhc zhc.c)
 add_executable(s0 s/s0.c ./zhc.c)
 add_executable(cmpDate ./u/cmpDate.c zhc.c)
 add_executable(BigDecimal ./u/BigDecimal.c zhc.c)
+add_executable(aes_128_main ./u/aes_128/aes.c ./u/aes_128/main.c ./u/Base64Lib.c ./zhc.c)
 
 find_package(Threads REQUIRED)
 target_link_libraries(demo0 Threads::Threads)

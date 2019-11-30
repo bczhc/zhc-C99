@@ -127,8 +127,10 @@ void Scanf(char **Dest) {
 }
 
 void
-strcpyAndCat_auto(char **Dest, const char *cpy_s, const int cpy_s_length, const char *cat_s, const int cat_s_length) {
+strcpyAndCat_auto(char **Dest, const char *cpy_s, int cpy_s_length, const char *cat_s, int cat_s_length) {
     *Dest = NULL;
+    if (cpy_s_length == -1) cpy_s_length = strlen(cpy_s);
+    if (cat_s_length == -1) cat_s_length = strlen(cat_s);
     int cpy_s_len = cpy_s_length;
     int cat_s_len = cat_s_length;
     size_t size = cpy_s_len + cat_s_len + 1;

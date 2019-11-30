@@ -17,7 +17,7 @@ void d1(char *Dest, const char cArr[4]);
 
 char *d1_EQ_M(char *Dest, const char cArr[4], int eqM_C);
 
-void eD(char **Dest, const char *s);
+void eD(char **Dest, const char *s, int len);
 
 void dD(char **Dest, const char *s);
 
