@@ -2,36 +2,36 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="C99" targetName="getFileSize" />
-      <config projectName="C99" targetName="Base128_Old" />
-      <config projectName="C99" targetName="Main" />
-      <config projectName="C99" targetName="demo5" />
-      <config projectName="C99" targetName="demo4" />
-      <config projectName="C99" targetName="demo3" />
-      <config projectName="C99" targetName="demo2" />
-      <config projectName="C99" targetName="demo1" />
-      <config projectName="C99" targetName="demo0" />
       <config projectName="C99" targetName="b" />
-      <config projectName="C99" targetName="aes_128_main" />
-      <config projectName="C99" targetName="FileXor" />
-      <config projectName="C99" targetName="zhc" />
-      <config projectName="C99" targetName="test10" />
-      <config projectName="C99" targetName="Base64" />
-      <config projectName="C99" targetName="test" />
-      <config projectName="C99" targetName="Base128" />
-      <config projectName="C99" targetName="Base128_dir" />
-      <config projectName="C99" targetName="TwoFilesXor" />
       <config projectName="C99" targetName="s0" />
+      <config projectName="C99" targetName="Base128_Old" />
       <config projectName="C99" targetName="TEA" />
+      <config projectName="C99" targetName="cat_file" />
       <config projectName="C99" targetName="BigDecimal" />
+      <config projectName="C99" targetName="test6" />
+      <config projectName="C99" targetName="Base128_dir" />
+      <config projectName="C99" targetName="test8" />
+      <config projectName="C99" targetName="zhc" />
+      <config projectName="C99" targetName="test7" />
+      <config projectName="C99" targetName="Main" />
+      <config projectName="C99" targetName="test9" />
+      <config projectName="C99" targetName="test" />
       <config projectName="C99" targetName="kwm" />
+      <config projectName="C99" targetName="Base128" />
       <config projectName="C99" targetName="cmpDate" />
       <config projectName="C99" targetName="qmc" />
-      <config projectName="C99" targetName="test6" />
-      <config projectName="C99" targetName="test9" />
-      <config projectName="C99" targetName="test8" />
-      <config projectName="C99" targetName="test7" />
-      <config projectName="C99" targetName="cat_file" />
+      <config projectName="C99" targetName="TwoFilesXor" />
+      <config projectName="C99" targetName="Base64" />
+      <config projectName="C99" targetName="getFileSize" />
+      <config projectName="C99" targetName="aes_128_main" />
+      <config projectName="C99" targetName="test10" />
+      <config projectName="C99" targetName="demo0" />
+      <config projectName="C99" targetName="demo1" />
+      <config projectName="C99" targetName="demo2" />
+      <config projectName="C99" targetName="demo3" />
+      <config projectName="C99" targetName="FileXor" />
+      <config projectName="C99" targetName="demo4" />
+      <config projectName="C99" targetName="demo5" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -40,74 +40,55 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf55a0ab-904d-4f76-b645-9d531476af0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/.idea/kwmusic-kwm-decrypt.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/CMakeFiles/3.14.3/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/CMakeFiles/3.14.3/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/CMakeFiles/3.14.3/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/CMakeFiles/kwm.dir/C.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/CMakeFiles/kwm.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/CMakeFiles/kwm.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/CMakeFiles/kwm.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/CMakeFiles/kwm.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/CMakeFiles/kwm.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/CMakeFiles/kwm.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/CMakeFiles/kwm.dir/kwm.c.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/CMakeFiles/kwm.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/CMakeFiles/kwm.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/Project.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kwmusic-kwm-decrypt/sources/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u/aes_128/.idea/aes_128.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u/aes_128/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u/aes_128/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u/aes_128/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u/aes_128/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u/aes_128/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u/aes_128/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u/aes_128/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u/aes_128/_config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u/aes_128/aes.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u/aes_128/aes.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u/aes_128/lut/aes.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u/aes_128/lut/gen_dec_key_table.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u/aes_128/lut/gen_dec_table.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u/aes_128/lut/gen_enc_table.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u/aes_128/main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u/aes_128/unroll/aes.c" afterDir="false" />
+    <list default="true" id="bf55a0ab-904d-4f76-b645-9d531476af0b" name="Default Changelist" comment="3">
+      <change afterPath="$PROJECT_DIR$/Base128-Encoder-and-Decoder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/color.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u/strdic.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u/strdic.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/Base128.c" beforeDir="false" afterPath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/Base128.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/cmake-build-debug/Base128" beforeDir="false" afterPath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/cmake-build-debug/Base128" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/cmake-build-debug/Base128.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/cmake-build-debug/Base128.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/cmake-build-debug/CMakeFiles/3.14.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/cmake-build-debug/CMakeFiles/3.14.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/cmake-build-debug/CMakeFiles/3.14.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/cmake-build-debug/CMakeFiles/3.14.3/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/cmake-build-debug/CMakeFiles/Base128.dir/Base128.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/cmake-build-debug/CMakeFiles/Base128.dir/Base128Lib.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/cmake-build-debug/CMakeFiles/Base128.dir/C.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/cmake-build-debug/CMakeFiles/Base128.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/cmake-build-debug/CMakeFiles/Base128.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/cmake-build-debug/CMakeFiles/Base128.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/cmake-build-debug/CMakeFiles/Base128.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/cmake-build-debug/CMakeFiles/Base128.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/cmake-build-debug/CMakeFiles/Base128.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/cmake-build-debug/CMakeFiles/Base128.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/cmake-build-debug/CMakeFiles/Base128.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/cmake-build-debug/CMakeFiles/Base128.dir/zhc.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/C99.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/C99.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Base128.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Base128.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Base64.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Base64.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/b.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/b.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo0.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo0.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo0.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo0.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo0.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo0.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo0.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo0.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo0.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo0.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo0.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo0.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo1.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo2.dir/progress.make" afterDir="false" />
@@ -124,18 +105,13 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test8.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test8.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test9.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test9.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s/s0.c" beforeDir="false" afterPath="$PROJECT_DIR$/s/s0.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/u/Base128Lib.c" beforeDir="false" afterPath="$PROJECT_DIR$/u/Base128Lib.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/u/Base64.c" beforeDir="false" afterPath="$PROJECT_DIR$/u/Base64.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/u/Base64Lib.c" beforeDir="false" afterPath="$PROJECT_DIR$/u/Base64Lib.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/u/Base64Lib.h" beforeDir="false" afterPath="$PROJECT_DIR$/u/Base64Lib.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhc.c" beforeDir="false" afterPath="$PROJECT_DIR$/zhc.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhc.h" beforeDir="false" afterPath="$PROJECT_DIR$/zhc.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo0.c" beforeDir="false" afterPath="$PROJECT_DIR$/demo0.c" afterDir="false" />
     </list>
     <list id="9850aa7a-5464-401d-90e5-6b45105e0c03" name="aa" comment="" />
     <list id="77cc2a7a-52c9-45ab-87df-1fec35949402" name="Revert: 更新一波" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,49 +124,58 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/u/BigDecimal.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-              <folding>
-                <element signature="e#37#60#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo0.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            <state relative-caret-position="463">
+              <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
               <folding>
-                <element signature="e#0#20#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/u/aes_128/main.c">
+        <entry file="file://$PROJECT_DIR$/u/Base128Lib.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1407">
-              <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
+            <state relative-caret-position="735">
+              <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
               <folding>
-                <element signature="e#242#260#0" expanded="true" />
+                <element signature="e#115#134#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/s/s0.c">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/u/strdic.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="674">
-              <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
+            <state relative-caret-position="168">
+              <caret line="8" selection-start-line="8" selection-end-line="9" />
               <folding>
-                <element signature="e#36#54#0" expanded="true" />
+                <element signature="e#39#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/u/strdic.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="100" selection-start-line="9" selection-start-column="100" selection-end-line="9" selection-end-column="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhc.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#104#122#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -217,23 +202,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="38" column="80" selection-start-line="38" selection-start-column="80" selection-end-line="38" selection-end-column="80" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>\) \{[\n]*\}</find>
-      <find>NULL</find>
-      <find>Scan</find>
-      <find>Sca</find>
       <find>exter</find>
       <find>ext</find>
       <find>fp</find>
@@ -254,12 +226,16 @@
       <find>DT</find>
       <find>r_le</find>
       <find>main</find>
-      <find>demo0</find>
       <find>mallo</find>
       <find>malloc</find>
       <find>xcz</find>
       <find>print</find>
       <find>fopen</find>
+      <find>fread</find>
+      <find>f_ok</find>
+      <find>demo</find>
+      <find>demo0</find>
+      <find>memset</find>
     </findStrings>
     <replaceStrings>
       <replace>FILE</replace>
@@ -283,10 +259,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/com_zhc_u_demo_JNI_a.h" />
-        <option value="$PROJECT_DIR$/test6.c" />
-        <option value="$PROJECT_DIR$/u/include/libbase64.h" />
-        <option value="$PROJECT_DIR$/u/bin/base64.c" />
         <option value="$PROJECT_DIR$/u/FileXor.c" />
         <option value="$PROJECT_DIR$/u/Base128.c___jb_tmp___.txt" />
         <option value="$PROJECT_DIR$/test10.c" />
@@ -318,22 +290,26 @@
         <option value="$PROJECT_DIR$/s/h2.h" />
         <option value="$PROJECT_DIR$/s/h1.h" />
         <option value="$PROJECT_DIR$/s/s.c" />
-        <option value="$PROJECT_DIR$/u/Base128Lib.h" />
         <option value="$PROJECT_DIR$/u/Base128.c" />
         <option value="$PROJECT_DIR$/u/cmpDate.c" />
         <option value="$PROJECT_DIR$/u/cmpDate.h" />
         <option value="$PROJECT_DIR$/u/BigDecimal.h" />
         <option value="$PROJECT_DIR$/u/BigDecimal.c" />
-        <option value="$PROJECT_DIR$/demo0.c" />
         <option value="$PROJECT_DIR$/zhc.c" />
         <option value="$PROJECT_DIR$/zhc.h" />
         <option value="$PROJECT_DIR$/u/Base128Lib.c" />
         <option value="$PROJECT_DIR$/u/Base64Lib.h" />
         <option value="$PROJECT_DIR$/u/Base64.c" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/u/Base64Lib.c" />
         <option value="$PROJECT_DIR$/u/aes_128/main.c" />
         <option value="$PROJECT_DIR$/s/s0.c" />
+        <option value="$PROJECT_DIR$/u/Base128Lib.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/u/strdic.c" />
+        <option value="$PROJECT_DIR$/u/strdic.h" />
+        <option value="$PROJECT_DIR$/color.h" />
+        <option value="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/Base128.c" />
+        <option value="$PROJECT_DIR$/demo0.c" />
       </list>
     </option>
   </component>
@@ -376,33 +352,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="C99" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C99" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="C99" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C99" type="462c0819:PsiDirectoryNode" />
-              <item name="s" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="C99" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C99" type="462c0819:PsiDirectoryNode" />
-              <item name="u" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="C99" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C99" type="462c0819:PsiDirectoryNode" />
-              <item name="u" type="462c0819:PsiDirectoryNode" />
-              <item name="aes_128" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Source Files'; set:Project Source Files; class com.jetbrains.cidr.lang.search.scopes.ProjectSourcesScopeProvider$SourceFilesScope">
           <expand>
@@ -421,7 +371,9 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/zhc/code/C99/test10.c" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Android/QMCFLAC/app/src/jni" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Base128-Encoder-and-Decoder" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -429,20 +381,21 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/demo4.c" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/u" />
-      <recent name="C:\code\code\C99\u" />
-      <recent name="C:\zhc\code\C99" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Base128-Encoder-and-Decoder/src" />
       <recent name="$PROJECT_DIR$/u" />
       <recent name="$PROJECT_DIR$" />
       <recent name="C:\zhc\code\C99" />
       <recent name="C:\zhc\code\C99\u" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/u" />
+      <recent name="C:\code\code\C99\u" />
+      <recent name="C:\zhc\code\C99" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -457,7 +410,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.Base128">
+  <component name="RunManager" selected="CMake Application.demo0">
     <configuration name="Base128" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C99" TARGET_NAME="Base128" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C99" RUN_TARGET_NAME="Base128">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -614,18 +567,16 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="CMake Application.aes_128_main" />
+      <item itemvalue="CMake Application.b" />
       <item itemvalue="CMake Application.Base128" />
-      <item itemvalue="CMake Application.Base128_Old" />
       <item itemvalue="CMake Application.Base128_dir" />
+      <item itemvalue="CMake Application.Base128_Old" />
       <item itemvalue="CMake Application.Base64" />
       <item itemvalue="CMake Application.BigDecimal" />
       <item itemvalue="CMake Application.Build All" />
-      <item itemvalue="CMake Application.FileXor" />
-      <item itemvalue="CMake Application.Main" />
-      <item itemvalue="CMake Application.TEA" />
       <item itemvalue="CMake Application.TwoFilesXor" />
-      <item itemvalue="CMake Application.aes_128_main" />
-      <item itemvalue="CMake Application.b" />
+      <item itemvalue="CMake Application.zhc" />
       <item itemvalue="CMake Application.cat_file" />
       <item itemvalue="CMake Application.cmpDate" />
       <item itemvalue="CMake Application.demo0" />
@@ -634,17 +585,19 @@
       <item itemvalue="CMake Application.demo3" />
       <item itemvalue="CMake Application.demo4" />
       <item itemvalue="CMake Application.demo5" />
+      <item itemvalue="CMake Application.FileXor" />
       <item itemvalue="CMake Application.getFileSize" />
       <item itemvalue="CMake Application.kwm" />
+      <item itemvalue="CMake Application.Main" />
       <item itemvalue="CMake Application.qmc" />
       <item itemvalue="CMake Application.s0" />
+      <item itemvalue="CMake Application.TEA" />
+      <item itemvalue="CMake Application.test" />
       <item itemvalue="CMake Application.test10" />
       <item itemvalue="CMake Application.test6" />
       <item itemvalue="CMake Application.test7" />
       <item itemvalue="CMake Application.test8" />
       <item itemvalue="CMake Application.test9" />
-      <item itemvalue="CMake Application.test" />
-      <item itemvalue="CMake Application.zhc" />
     </list>
   </component>
   <component name="StructureViewFactory">
@@ -781,7 +734,11 @@
       <workItem from="1573300342327" duration="307000" />
       <workItem from="1573945733827" duration="6999000" />
       <workItem from="1574497762702" duration="231000" />
-      <workItem from="1575089668611" duration="332000" />
+      <workItem from="1575089668611" duration="1608000" />
+      <workItem from="1575127820282" duration="3981000" />
+      <workItem from="1575724408172" duration="598000" />
+      <workItem from="1576307162302" duration="1503000" />
+      <workItem from="1576324290812" duration="6187000" />
     </task>
     <task id="LOCAL-00001" summary="整理库">
       <created>1557233306082</created>
@@ -930,11 +887,18 @@
       <option name="project" value="LOCAL" />
       <updated>1572750125848</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="3">
+      <created>1575090219323</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1575090219323</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="545028000" />
+    <option name="totallyTimeSpent" value="558573000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -946,29 +910,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="0" width="1928" height="1054" extended-state="6" />
+    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6059957" visible="true" weight="0.2719017" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6059957" visible="true" weight="0.2847222" />
       <window_info id="Structure" order="1" sideWeight="0.3940043" side_tool="true" weight="0.18364611" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932975" weight="0.32532752" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.58378017" weight="0.29180327" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4966488" weight="0.41311476" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.58378017" weight="0.33881578" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4966488" weight="0.4122807" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4919571" weight="0.32707775" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5032051" side_tool="true" weight="0.32751092" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.24195339" />
-      <window_info anchor="bottom" id="CMake" order="10" sideWeight="0.5382038" weight="0.30273223" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.60254693" visible="true" weight="0.3464481" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49679488" weight="0.41703057" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3475877" />
+      <window_info anchor="bottom" id="CMake" order="10" sideWeight="0.5382038" weight="0.3026316" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.60254693" visible="true" weight="0.42872807" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49679488" weight="0.41639343" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="make" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1015,6 +980,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/aes_128" />
+      <path value="$PROJECT_DIR$/kwmusic-kwm-decrypt" />
+    </ignored-roots>
     <MESSAGE value="整理库" />
     <MESSAGE value="又写了点库" />
     <MESSAGE value="完善split，但是strtok不好，准备自己写split&#10;目前分割ASCII内字符可以正常使用" />
@@ -1035,10 +1004,23 @@
     <MESSAGE value="更新" />
     <MESSAGE value="大数加法 未完全测试" />
     <MESSAGE value="Split" />
-    <option name="LAST_COMMIT_MESSAGE" value="Split" />
+    <MESSAGE value="3" />
+    <option name="LAST_COMMIT_MESSAGE" value="3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/demo0.c</url>
+          <line>22</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/demo0.c</url>
+          <line>21</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -1112,6 +1094,31 @@ a</expression-string>
     </expressions>
     <expressions id="watch">
       <expression>
+        <expression-string>RANDOM(0,10)</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>RANDOM(0,100)</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>RAND_MAX</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>RANDOM(1,10)</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>rand()</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>s[i]</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -1128,36 +1135,6 @@ a</expression-string>
       </expression>
       <expression>
         <expression-string>sizeof(*dst)</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>sizeof(**dst)</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>dst[5]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>dst[4]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>dst[3]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>dst[2]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>dst[1]</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1268,49 +1245,6 @@ a</expression-string>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/u/qmcLib.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="47" column="54" lean-forward="true" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/u/encode.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/u/qmcLib.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/b.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/u/kwm.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/u/qmc.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/s.c" />
     <entry file="file://$PROJECT_DIR$/s/h1.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1407,16 +1341,6 @@ a</expression-string>
     <entry file="file://$PROJECT_DIR$/cmake_install.cmake">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/u/Base128Lib.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-          <folding>
-            <element signature="e#115#134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/u/cmpDate.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1507,32 +1431,8 @@ a</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhc.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="987">
-          <caret line="47" column="55" selection-start-line="47" selection-start-column="55" selection-end-line="47" selection-end-column="55" />
-          <folding>
-            <element signature="e#104#122#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/u/aes_128/lut/aes.c">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/u/Base128Lib.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="161" column="13" lean-forward="true" selection-start-line="161" selection-start-column="13" selection-end-line="161" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhc.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="372" column="1" selection-start-line="372" selection-start-column="1" selection-end-line="372" selection-end-column="1" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/u/aes_128/aes.c">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1540,27 +1440,10 @@ a</expression-string>
     <entry file="file://$PROJECT_DIR$/u/Base64.s">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/u/Base128.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-          <folding>
-            <element signature="e#46#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/u/Base64.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/stdio.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="245" column="13" selection-start-line="245" selection-start-column="13" selection-end-line="245" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1574,22 +1457,122 @@ a</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo0.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/u/aes_128/main.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1407">
           <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
           <folding>
             <element signature="e#242#260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/u/Base128Lib.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file:///usr/include/stdio.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="245" column="47" selection-start-line="245" selection-start-column="47" selection-end-line="245" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s/s0.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="e#36#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/u/Base128.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="e#46#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/color.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="35" column="52" lean-forward="true" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Base128-Encoder-and-Decoder/src/Base128.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="e#46#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/u/Base128Lib.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+          <folding>
+            <element signature="e#115#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/u/strdic.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" selection-start-line="8" selection-end-line="9" />
+          <folding>
+            <element signature="e#39#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/u/strdic.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="100" selection-start-line="9" selection-start-column="100" selection-end-line="9" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhc.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#104#122#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1611,19 +1594,19 @@ a</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/zhc.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="38" column="80" selection-start-line="38" selection-start-column="80" selection-end-line="38" selection-end-column="80" />
+        <state relative-caret-position="338">
+          <caret line="120" column="22" lean-forward="true" selection-start-line="120" selection-start-column="22" selection-end-line="120" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/s/s0.c">
+    <entry file="file://$PROJECT_DIR$/demo0.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
+        <state relative-caret-position="463">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
           <folding>
-            <element signature="e#36#54#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>

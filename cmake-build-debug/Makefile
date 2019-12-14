@@ -1394,6 +1394,33 @@ u/qmcLib.c.s:
 	$(MAKE) -f CMakeFiles/qmc.dir/build.make CMakeFiles/qmc.dir/u/qmcLib.c.s
 .PHONY : u/qmcLib.c.s
 
+u/strdic.o: u/strdic.c.o
+
+.PHONY : u/strdic.o
+
+# target to build an object file
+u/strdic.c.o:
+	$(MAKE) -f CMakeFiles/demo0.dir/build.make CMakeFiles/demo0.dir/u/strdic.c.o
+.PHONY : u/strdic.c.o
+
+u/strdic.i: u/strdic.c.i
+
+.PHONY : u/strdic.i
+
+# target to preprocess a source file
+u/strdic.c.i:
+	$(MAKE) -f CMakeFiles/demo0.dir/build.make CMakeFiles/demo0.dir/u/strdic.c.i
+.PHONY : u/strdic.c.i
+
+u/strdic.s: u/strdic.c.s
+
+.PHONY : u/strdic.s
+
+# target to generate assembly for a file
+u/strdic.c.s:
+	$(MAKE) -f CMakeFiles/demo0.dir/build.make CMakeFiles/demo0.dir/u/strdic.c.s
+.PHONY : u/strdic.c.s
+
 zhc.o: zhc.c.o
 
 .PHONY : zhc.o
@@ -1582,6 +1609,9 @@ help:
 	@echo "... u/qmcLib.o"
 	@echo "... u/qmcLib.i"
 	@echo "... u/qmcLib.s"
+	@echo "... u/strdic.o"
+	@echo "... u/strdic.i"
+	@echo "... u/strdic.s"
 	@echo "... zhc.o"
 	@echo "... zhc.i"
 	@echo "... zhc.s"

@@ -1360,6 +1360,12 @@
 		<Unit filename="/home/zhc/code/code/C99/u/qmcLib.h">
 			<Option target="qmc"/>
 		</Unit>
+		<Unit filename="/home/zhc/code/code/C99/u/strdic.c">
+			<Option target="demo0"/>
+		</Unit>
+		<Unit filename="/home/zhc/code/code/C99/u/strdic.h">
+			<Option target="demo0"/>
+		</Unit>
 		<Unit filename="/home/zhc/code/code/C99/zhc.c">
 			<Option target="aes_128_main"/>
 			<Option target="BigDecimal"/>

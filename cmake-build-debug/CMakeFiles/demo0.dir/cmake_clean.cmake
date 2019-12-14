@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/demo0.dir/demo0.c.o"
   "CMakeFiles/demo0.dir/zhc.c.o"
+  "CMakeFiles/demo0.dir/u/strdic.c.o"
   "demo0.pdb"
   "demo0"
 )

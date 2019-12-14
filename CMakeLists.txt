@@ -4,7 +4,7 @@ project(C99 C)
 set(CMAKE_C_STANDARD 99)
 
 add_executable(Main main.c)
-add_executable(demo0 demo0.c zhc.c)
+add_executable(demo0 demo0.c zhc.c ./u/strdic.c)
 add_executable(demo1 demo1.c)
 add_executable(demo2 demo2.c)
 add_executable(demo3 demo3.c)
