@@ -6,14 +6,16 @@
 #define RANDOM(a, b)  (((double) rand() / RAND_MAX) * (b - a) + a)
 
 char map[12][12];
-char **snake;
-int snakeLength = 3;
+char **snake; //蛇的身体（从尾到头）
+int snakeLength = 1;
 int game_over = 0;
 //墙 1
 
 void drawSnake();
 
 void preformMap();
+
+void offsetSnakeBody();
 
 void placeFood() {
     while (1) {
@@ -32,12 +34,8 @@ int main() {
     for (int i = 0; i < snakeLength; ++i) {
         snake[i] = (char *) malloc(sizeof(char) * 2);
     }
-    snake[0][0] = 6;
-    snake[0][1] = 6;
-    snake[1][0] = 6;
-    snake[1][1] = 7;
-    snake[2][0] = 6;
-    snake[2][1] = 8;
+    snake[0][0] = 3;
+    snake[0][1] = 3;//蛇的初始位置
     preformMap();
     drawSnake();
     placeFood();
@@ -47,66 +45,69 @@ int main() {
         switch (*in) {
             case 'w':
             case 'W': {
-                int nextChar = map[snake[0][0]][snake[0][1] - 1];
-                if (nextChar == '*') return 0;
+                char nextChar = map[snake[snakeLength - 1][0]][snake[snakeLength - 1][1] - 1];
+                if (nextChar == '*' || nextChar == 'X') return 0;
                 if (nextChar == '$') {
                     ++snakeLength;
                     snake = (char **) realloc(snake, snakeLength * sizeof(char *));
+                    snake[snakeLength - 1] = (char *) malloc(sizeof(char) * 2);
+                    snake[snakeLength - 1][0] = snake[snakeLength - 2][0];
+                    snake[snakeLength - 1][1] = snake[snakeLength - 2][1] - 1;
                     placeFood();
-                    for (int i = 0; i < snakeLength - 1; ++i) {
-                        snake[i + 1] = snake[i];
-                    }
-                    snake[0][1] -= 1;
                 } else {
-                    for (int i = 0; i < snakeLength - 1; ++i) {
-                        snake[i + 1] = snake[i];
-                    }
-                    snake[0][1] -= 1;
+                    offsetSnakeBody();
+                    --snake[snakeLength - 1][1];
                 }
                 break;
             }
             case 's':
             case 'S': {
-                int nextChar = map[snake[0][0]][snake[0][1] + 1];
-                if (nextChar == '*') return 0;
+                char nextChar = map[snake[snakeLength - 1][0]][snake[snakeLength - 1][1] + 1];
+                if (nextChar == '*' || nextChar == 'X') return 0;
                 if (nextChar == '$') {
-                    snake = (char **) realloc(snake, (snakeLength + 1) * sizeof(char *));
-
+                    ++snakeLength;
+                    snake = (char **) realloc(snake, snakeLength * sizeof(char *));
+                    snake[snakeLength - 1] = (char *) malloc(sizeof(char) * 2);
+                    snake[snakeLength - 1][0] = snake[snakeLength - 2][0];
+                    snake[snakeLength - 1][1] = snake[snakeLength - 2][1] + 1;
+                    placeFood();
                 } else {
-                    for (int i = 0; i < snakeLength - 1; ++i) {
-                        snake[i + 1] = snake[i];
-                    }
-                    snake[0][1] += 1;
+                    offsetSnakeBody();
+                    ++snake[snakeLength - 1][1];
                 }
                 break;
             }
             case 'a':
             case 'A': {
-                int nextChar = map[snake[0][0] - 1][snake[0][1]];
-                if (nextChar == '*') return 0;
+                char nextChar = map[snake[snakeLength - 1][0] - 1][snake[snakeLength - 1][1]];
+                if (nextChar == '*' || nextChar == 'X') return 0;
                 if (nextChar == '$') {
-                    snake = (char **) realloc(snake, (snakeLength + 1) * sizeof(char *));
-
+                    ++snakeLength;
+                    snake = (char **) realloc(snake, snakeLength * sizeof(char *));
+                    snake[snakeLength - 1] = (char *) malloc(sizeof(char) * 2);
+                    snake[snakeLength - 1][0] = snake[snakeLength - 2][0] - 1;
+                    snake[snakeLength - 1][1] = snake[snakeLength - 2][1];
+                    placeFood();
                 } else {
-                    for (int i = 0; i < snakeLength - 1; ++i) {
-                        snake[i + 1] = snake[i];
-                    }
-                    snake[0][0] -= 1;
+                    offsetSnakeBody();
+                    --snake[snakeLength - 1][0];
                 }
                 break;
             }
             case 'd':
             case 'D': {
-                int nextChar = map[snake[0][0] + 1][snake[0][1]];
-                if (nextChar == '*') return 0;
+                char nextChar = map[snake[snakeLength - 1][0] + 1][snake[snakeLength - 1][1]];
+                if (nextChar == '*' || nextChar == 'X') return 0;
                 if (nextChar == '$') {
-                    snake = (char **) realloc(snake, (snakeLength + 1) * sizeof(char *));
-
+                    ++snakeLength;
+                    snake = (char **) realloc(snake, snakeLength * sizeof(char *));
+                    snake[snakeLength - 1] = (char *) malloc(sizeof(char) * 2);
+                    snake[snakeLength - 1][0] = snake[snakeLength - 2][0] + 1;
+                    snake[snakeLength - 1][1] = snake[snakeLength - 2][1];
+                    placeFood();
                 } else {
-                    for (int i = 0; i < snakeLength - 1; ++i) {
-                        snake[i + 1] = snake[i];
-                    }
-                    snake[0][0] += 1;
+                    offsetSnakeBody();
+                    ++snake[snakeLength - 1][0];
                 }
                 break;
             }
@@ -121,6 +122,13 @@ int main() {
         }
     }
     return 0;
+}
+
+void offsetSnakeBody() {
+    for (int i = 0; i < snakeLength - 1; ++i) {
+        snake[i][0] = snake[i + 1][0];
+        snake[i][1] = snake[i + 1][1];
+    }
 }
 
 void preformMap() {
@@ -138,8 +146,8 @@ void preformMap() {
 }
 
 void drawSnake() {
-    map[snake[0][0]][snake[0][1]] = 'O';
-    for (int i = 1; i < snakeLength; ++i) {
+    for (int i = 0; i < snakeLength - 1; ++i) {
         map[snake[i][0]][snake[i][1]] = 'X';
     }
+    map[snake[snakeLength - 1][0]][snake[snakeLength - 1][1]] = 'O';
 }

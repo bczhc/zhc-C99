@@ -40,3 +40,4 @@ add_executable(aes_128_main ./u/aes_128/aes.c ./u/aes_128/main.c ./u/Base64Lib.c
 
 find_package(Threads REQUIRED)
 target_link_libraries(demo0 Threads::Threads)
+target_link_libraries(demo1 curses)
