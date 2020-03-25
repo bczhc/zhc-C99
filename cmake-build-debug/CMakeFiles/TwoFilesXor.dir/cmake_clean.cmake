@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TwoFilesXor.dir/TwoFilesXor.c.o"
-  "TwoFilesXor.pdb"
   "TwoFilesXor"
+  "TwoFilesXor.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

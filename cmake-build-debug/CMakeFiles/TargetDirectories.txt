@@ -1,3 +1,5 @@
+/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/unicode.dir
+/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/splitFile.dir
 /home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/aes_128_main.dir
 /home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/BigDecimal.dir
 /home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/zhc.dir
@@ -7,9 +9,6 @@
 /home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/qmc.dir
 /home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/TEA.dir
 /home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/getFileSize.dir
-/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/demo4.dir
-/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/test.dir
-/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/Base128.dir
 /home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/Base128_Old.dir
 /home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/demo5.dir
@@ -23,10 +22,14 @@
 /home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/cmpDate.dir
 /home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/FileXor.dir
+/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/snake.dir
 /home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/demo0.dir
+/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/demo4.dir
+/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/Base64.dir
+/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/test9.dir
+/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/test.dir
+/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/Base128.dir
 /home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/test6.dir
 /home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/test7.dir
 /home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/Base128_dir.dir
 /home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/test10.dir
-/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/test9.dir
-/home/zhc/code/code/C99/cmake-build-debug/CMakeFiles/Base64.dir

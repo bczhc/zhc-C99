@@ -6,7 +6,7 @@ int main(/*const */int argc, char *argv[]) {
     if (argc < 3) {
         printf("%s", "Base128\nCommand [-encode | -decode] [[filePath]] [[DestFilePath]] |\n"
                      "Command [-encode | -decode] [[filePath]]\n");
-        return 'P';
+        return 0;
     }
     char dA[strlen(argv[1]) + 1];
     ToUpperCase(dA, argv[1]);

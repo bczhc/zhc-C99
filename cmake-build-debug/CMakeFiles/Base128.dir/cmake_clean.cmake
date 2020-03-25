@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
+  "Base128"
+  "Base128.pdb"
   "CMakeFiles/Base128.dir/u/Base128.c.o"
   "CMakeFiles/Base128.dir/u/Base128Lib.c.o"
   "CMakeFiles/Base128.dir/zhc.c.o"
-  "Base128.pdb"
-  "Base128"
 )
 
 # Per-language clean rules from dependency scanning.
